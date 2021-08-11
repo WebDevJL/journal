@@ -1,11 +1,12 @@
 ---
 title: ES6 for everyone - Course review
-subtitle: Learn how JavaScript works today.
-author: Jeremie Litzler
-date: 20 Dec 2020
-hero_image: '../static/images/es6-by-wesbos.png'
-category: Web Fundamentals, Course reviews
-tag: Vanilla JS
+description: Learn how JavaScript works today.
+# author: Jeremie Litzler
+# date: 20 Dec 2020
+heroImage: "/images/es6-by-wesbos.png"
+heroAlt: Screenshot of the course homepage
+# category: Web Fundamentals, Course reviews
+# tag: Vanilla JS
 ---
 
 ## What

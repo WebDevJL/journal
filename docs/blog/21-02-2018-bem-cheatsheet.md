@@ -1,10 +1,10 @@
 ---
 title: A BEM Cheatsheet
-subtitle: How does BEM work to structure CSS?
-author: Jeremie Litzler
-date: 21 Feb 2018
-category: Web development, Guides
-tag: CSS, BEM Methodology
+description: How does BEM work to structure CSS?
+# author: Jeremie Litzler
+# date: 21 Feb 2018
+# category: Web development, Guides
+# tag: CSS, BEM Methodology
 ---
 
 ## BEM Cheatsheet

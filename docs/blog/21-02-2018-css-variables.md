@@ -1,10 +1,10 @@
 ---
 title: CSS Variables
-subtitle: Enhance your CSS with variables without LESS or SASS.
-author: Jeremie Litzler
-date: 22 Feb 2018
-category: Web Fundamentals, Web development
-tag: CSS, CSS Variables
+description: Enhance your CSS with variables without LESS or SASS.
+# author: Jeremie Litzler
+# date: 22 Feb 2018
+# category: Web Fundamentals, Web development
+# tag: CSS, CSS Variables
 ---
 
 ## CSS Variables
@@ -60,9 +60,9 @@ media all and (max-width: 600px) {
 ### How to access variables with JavaScript
 
 ```js
-var root = document.querySelector(':root');
+var root = document.querySelector(":root");
 var rootStyles = getComputedStyle(root);
-var mainColor = rootStyles.getPropertyValue('--main-color');
+var mainColor = rootStyles.getPropertyValue("--main-color");
 
-root.style.setProperty('--main-color', '#88d8b0');
+root.style.setProperty("--main-color", "#88d8b0");
 ```
