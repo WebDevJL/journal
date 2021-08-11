@@ -9,6 +9,10 @@ heroAlt: Screenshot of the course homepage
 # tag: Scrimba, Interactive classroom
 ---
 
+<!-- markdownlint-disable -->
+
+# {{$page.title}}
+
 ## What
 
 The course is about web responsive design using HTML and CSS.

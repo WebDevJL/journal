@@ -8,6 +8,8 @@ heroAlt: A Macintosh computer on a desk
 # category: Web fundamentals
 ---
 
+# Titre H1
+
 ## Titre H2
 
 ### Titre H3
