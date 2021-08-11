@@ -24,7 +24,7 @@ It can be found of the official [Visual Studio Code website](https://code.visual
 
 ### Step 1
 
-![Create a new JavaScript Debug Terminal](../static/images/debugging-in-nodejs-and-vsc-create-debug-terminal.png)
+![Create a new JavaScript Debug Terminal](/images/debugging-in-nodejs-and-vsc-create-debug-terminal.png)
 
 ### Step 2
 
@@ -36,6 +36,6 @@ npm run dev
 
 You should see this:
 
-![A running debugger](../static/images/debugging-in-nodejs-and-vsc-running-debugger.png)
+![A running debugger](/images/debugging-in-nodejs-and-vsc-running-debugger.png)
 
 Photo by [C M](https://unsplash.com/@ubahnverleih?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash.

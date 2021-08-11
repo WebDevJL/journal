@@ -39,7 +39,7 @@ Kevin Powell is the teacher. His curriculum is impressive and yet, I didn't know
 
 Throughout the course, you will find out that his voice is clear and his words are accurate to explain the concept at hand.
 
-![Kevin picture](../static/images/webresponsive-bootcamp-by-scrimba-teacher.png)
+![Kevin picture](/images/webresponsive-bootcamp-by-scrimba-teacher.png)
 
 I am experienced in the CSS and HTML technologies, having worked in the Web sphere since 2009. So I actually went 1.4x time the normal speed throughout the course ;)
 
@@ -55,7 +55,7 @@ For example, rem is the recommended units for font-size while em is the unit we 
 
 Second, Flexbox: who hasn't used float in the last 10 years? who wasn't tired of it and used Bootstrap to create "grid-like" layout that didn't break?
 
-Yes, but even with Bootstrap, and maybe I wasn't using it properly, I feel like I was replacing the CSS hell with the HTML hell. What I mean by that is that the markup felt much more dense or decorative than for the purpose of the layout. You know the "Callback hell" in JavaScript, well I felt the "<div> hell" with Bootstrap.
+Yes, but even with Bootstrap, and maybe I wasn't using it properly, I feel like I was replacing the CSS hell with the HTML hell. What I mean by that is that the markup felt much more dense or decorative than for the purpose of the layout. You know the "Callback hell" in JavaScript, well I felt the "\<\div> hell" with Bootstrap.
 
 Note: I have use Bootstrap 4 over the past year for work (not that I chose it) and I think the version 4 has helped a lot to solve the version 3 issues.
 
@@ -107,7 +107,7 @@ Going through the entire course took me :
 So I took me 43.25 hours to complete the course and really increase my skills. That's only 4 and a half weeks if you work 2 hours per weekday on it.
 On the final project, I did try my best not to watch Kevin's solution, hence the greater amount of time spent. When I got stuck (ex: the hero image, the main grid trick, the mobile menu), I was watching the videos to be inspired but then, [his solution](https://jeremiel-with-scrimba-rd.netlify.app/6.taking.it.to.the.next.level/1.final.project.instructor/index.html) is different than [my final render](https://jeremiel-with-scrimba-rd.netlify.app/6.taking.it.to.the.next.level/2.final.project.myself/).
 
-![Final project](../static/images/webresponsive-bootcamp-by-scrimba-final-project.png)
+![Final project](/images/webresponsive-bootcamp-by-scrimba-final-project.png)
 
 Now, before moving to JavaScript or ReactJS or Vue or UI courses, I’d like to apply my skills to undo all the Bootstrap 3 templates I used on my existing projects and see if I can achieve the same look and feel with no HTML template and css framework (except Font Awesome.
 

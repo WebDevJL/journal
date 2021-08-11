@@ -13,13 +13,13 @@ heroAlt: Drawing of a scooter driver
 [Some of the media in France](https://www.cnews.fr/france/2020-03-23/pollution-bruit-lumiere-les-effets-inattendus-du-confinement-paris-939284) are starting after a week of lockdown to notice that the pollution levels (noise, air, light) have significantly decreased.
 It seems that in Lyon, [the air quality has never been so good than now](https://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/rhone/lyon/coronavirus-confinement-jamais-lyon-qualite-air-n-ete-bonne-1805728.html)!
 
-![Air quality in Lyon on 24/03/2020](../static/images/do-we-need-the-coronavirus-to-reduce-lyon-pollution.jpg) ([source](https://www.atmo-auvergnerhonealpes.fr/monair/commune/69123))
+![Air quality in Lyon on 24/03/2020](/images/do-we-need-the-coronavirus-to-reduce-lyon-pollution.jpg) ([source](https://www.atmo-auvergnerhonealpes.fr/monair/commune/69123))
 
-![Air quality for the last 10 days in Lyon](../static/images/do-we-need-the-coronavirus-to-reduce-lyon-pollution2.jpg) ([source](https://www.atmo-auvergnerhonealpes.fr/monair/commune/69123))
+![Air quality for the last 10 days in Lyon](/images/do-we-need-the-coronavirus-to-reduce-lyon-pollution2.jpg) ([source](https://www.atmo-auvergnerhonealpes.fr/monair/commune/69123))
 
-![Air quality in Grenoble on 24/03/2020](../static/images/do-we-need-the-coronavirus-to-reduce-grenoble-pollution.jpg) ([source](https://www.atmo-auvergnerhonealpes.fr/monair/commune/38185))
+![Air quality in Grenoble on 24/03/2020](/images/do-we-need-the-coronavirus-to-reduce-grenoble-pollution.jpg) ([source](https://www.atmo-auvergnerhonealpes.fr/monair/commune/38185))
 
-![Air quality for the last 10 days in Grenoble](../static/images/do-we-need-the-coronavirus-to-reduce-grenoble-pollution2.jpg) ([source](https://www.atmo-auvergnerhonealpes.fr/monair/commune/38185))
+![Air quality for the last 10 days in Grenoble](/images/do-we-need-the-coronavirus-to-reduce-grenoble-pollution2.jpg) ([source](https://www.atmo-auvergnerhonealpes.fr/monair/commune/38185))
 
 ## Is that a surprise?
 
@@ -45,7 +45,7 @@ I choose the organic products rather the regular ones when it is something that 
 I purchase food from local farmer markets, which I admit are numerous in the Rhone Valley.
 I refrain from purchasing goods in supermarkets whenever possible.
 
-![Photo by Ashley Winkler on Unsplash](../static/images/do-we-need-the-coronavirus-market.jpeg)
+![Photo by Ashley Winkler on Unsplash](/images/do-we-need-the-coronavirus-market.jpeg)
 
 The result **from my own experience**: a couple of running nose and coughing per year.
 However, I cannot guarantee that perfect diet (what is it in the first place?) will immune you from Coronavirus but it can help. Do you allow for the possibility that it can?
