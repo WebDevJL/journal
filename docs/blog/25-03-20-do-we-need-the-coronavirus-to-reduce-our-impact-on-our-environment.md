@@ -2,10 +2,13 @@
 title: Do we need the coronavirus to reduce our impact on our environment?
 description: Or is it something that is under our noses?
 # author: Jeremie Litzler
-# date: 25 Mars 2020
+published: 2020-03-25
 heroImage: "/images/do-we-need-the-coronavirus.jpeg"
 heroAlt: Drawing of a scooter driver
-# category: Health and Diet,Using Energy
+meta:
+  keywords:
+    - Health and Diet
+    - Using Energy
 ---
 
 ## Air and Noice pollution have decreased

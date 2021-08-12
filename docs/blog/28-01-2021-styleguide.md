@@ -2,10 +2,12 @@
 title: Style guide of the site (H1)
 description: A set of examples of the various elements in a post and how they will look
 # author: Jeremie Litzler
-# date: 28 Jan 2021
+published: 2021-01-28
 heroImage: "/images/28-01-2021-styleguide.jpg"
 heroAlt: A Macintosh computer on a desk
-# category: Web fundamentals
+meta:
+  keywords:
+    - Web fundamentals
 ---
 
 # Titre H1
