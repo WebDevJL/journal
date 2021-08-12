@@ -23,6 +23,10 @@ module.exports = {
   ],
   themeConfig: {
     logo: "https://vuejs.org/images/logo.png",
+    nav: [
+      { text: "About", link: "/" },
+      { text: "Blog", link: "/blog" },
+    ],
   },
   bundler: "@vuepress/vite",
   bundlerConfig: {
