@@ -16,9 +16,11 @@
 export default {
   computed: {
     articles() {
-      return this.$site.pages.filter((p) => {
-        return p.path.indexOf("/blog/") >= 0;
-      });
+      return this.$site.pages
+        .filter((x) => x.path.startsWith("/blog/") && !x.frontmatter.blog_index)
+        .sort(
+          (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date),
+        );
     },
   },
 };
