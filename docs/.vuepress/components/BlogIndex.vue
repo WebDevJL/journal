@@ -16,6 +16,7 @@
 export default {
   computed: {
     articles() {
+      console.log(this.pages);
       return this.$site.pages
         .filter((x) => x.path.startsWith("/blog/") && !x.frontmatter.blog_index)
         .sort(
