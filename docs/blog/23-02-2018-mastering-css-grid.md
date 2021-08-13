@@ -2,7 +2,7 @@
 title: Mastering CSS Grid
 description: I will share a couple of resources teaching you to use CSS Grid
 # author: Jeremie Litzler
-published: 2018-02-23
+date: 2018-02-23
 meta:
   keywords:
     - Web Fundamentals

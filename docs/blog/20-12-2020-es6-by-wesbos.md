@@ -2,7 +2,7 @@
 title: ES6 for everyone - Course review
 description: Learn how JavaScript works today.
 # author: Jeremie Litzler
-published: 2020-12-20
+date: 2020-12-20
 heroImage: "/images/es6-by-wesbos.png"
 heroAlt: Screenshot of the course homepage
 meta:
