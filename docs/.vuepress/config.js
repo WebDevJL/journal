@@ -3,7 +3,7 @@ module.exports = {
   title: "Journal of Jérémie Litzler",
   description:
     "I want to share my notes, thoughts and experiences because I believe it is important",
-
+  repo: "https://github.com/JeremieLitzler/journal",
   //https://v2.vuepress.vuejs.org/reference/config.html#head
   head: [
     ["meta", { property: "og:title", content: "Journal of Jérémie Litzler" }],
@@ -23,7 +23,7 @@ module.exports = {
   ],
   themeConfig: {
     logo: "https://vuejs.org/images/logo.png",
-    nav: [
+    navbar: [
       { text: "About", link: "/" },
       { text: "Blog", link: "/blog" },
     ],
