@@ -75,4 +75,4 @@ Finally, I am bicycling to work daily, with almost 100.000 km travelled since se
 
 ## What about you?
 
-[Tell now!](https://twitter.com/LitzlerJeremie)
+[Tell me now!](https://twitter.com/LitzlerJeremie)
