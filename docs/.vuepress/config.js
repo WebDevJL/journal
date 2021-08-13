@@ -30,6 +30,21 @@ module.exports = {
   },
   bundler: "@vuepress/vite",
   bundlerConfig: {
-    // vite bundler options
+    server: {
+      fs: {
+        // Allow serving files from one level up to the project root
+        allow: ["/Git/GitHub/journal/docs/.vuepress/.temp/pagesData.js"],
+      },
+    },
   },
+  // onPrepared: async (app) => {
+  //   const pagesData = app.pages.map((page) => {
+  //     console.log(page);
+  //   });
+  //   //For security concerns, accessing files outside of serving allow list will be restricted by default in the future version of Vite. Refer to https://vitejs.dev/config/#server-fs-allow for more details.
+  //   await app.writeTemp(
+  //     "pages.js",
+  //     `export default ${JSON.stringify(pagesData)}`,
+  //   );
+  // },
 };
