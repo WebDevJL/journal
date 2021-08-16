@@ -1,3 +1,5 @@
+// import path from "path";
+
 module.exports = {
   lang: "en-US",
   title: "Journal of Jérémie Litzler",
@@ -30,21 +32,32 @@ module.exports = {
   },
   bundler: "@vuepress/vite",
   bundlerConfig: {
+    build: {
+      rollupOptions: {
+        external: ["docs/.vuepress/helpers/MarkdownFilesIndexBuilder.js"],
+      },
+    },
     server: {
       fs: {
         // Allow serving files from one level up to the project root
-        allow: ["/Git/GitHub/journal/docs/.vuepress/.temp/pagesData.js"],
+        allow: ["/Git/GitHub/journal/docs/.vuepress/.temp/pages.js"],
       },
     },
   },
-  // onPrepared: async (app) => {
-  //   const pagesData = app.pages.map((page) => {
-  //     console.log(page);
-  //   });
-  //   //For security concerns, accessing files outside of serving allow list will be restricted by default in the future version of Vite. Refer to https://vitejs.dev/config/#server-fs-allow for more details.
-  //   await app.writeTemp(
-  //     "pages.js",
-  //     `export default ${JSON.stringify(pagesData)}`,
-  //   );
-  // },
+  onPrepared: async (app) => {
+    console.log(app.pages.length);
+    //15
+    //13 in /blog
+    //1 in /docs
+    //what is the 15th?
+    const pagesData = app.pages.map((page) => {
+      //console.log(page);
+      return page;
+    });
+    //For security concerns, accessing files outside of serving allow list will be restricted by default in the future version of Vite. Refer to https://vitejs.dev/config/#server-fs-allow for more details.
+    await app.writeTemp(
+      "pages.js",
+      `export default ${JSON.stringify(pagesData)}`,
+    );
+  },
 };

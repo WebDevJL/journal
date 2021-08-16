@@ -1,7 +1,14 @@
 <template>
   <div>
     <div class="article" v-for="article in articles">
-      <a v-bind:href="article.path">{{ article.title }}</a>
+      <a v-bind:href="article.path"
+        ><h2>{{ article.title }}</h2>
+        <img
+          :src="article.frontmatter.heroImage"
+          :alt="article.frontmatter.heroAlt"
+        />
+        <p>{{ article.frontmatter.description }}</p>
+      </a>
       <div class="keywords">
         <span
           class="keyword"
@@ -13,20 +20,23 @@
   </div>
 </template>
 <script>
-// import pages from "@temp/pagesData.js";
+import pages from "@temp/pages.js";
+import { getIndexStartWith } from "../helpers/MarkdownFilesIndexBuilder.js";
 
-// export default {
-//   computed: {
-//     articles() {
-//       console.log(pages);
-//       return pages
-//         .filter((x) => x.path.startsWith("/blog/") && !x.frontmatter.blog_index)
-//         .sort(
-//           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date),
-//         );
-//     },
-//   },
-// };
+export default {
+  computed: {
+    articles() {
+      // console.log("all pages", pages);
+      const filteredPages = getIndexStartWith("/blog/", pages)
+        .filter((x) => !x.frontmatter.isIndexPage)
+        .sort(
+          (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date),
+        );
+      // console.log("Filtered:", filteredPages);
+      return filteredPages;
+    },
+  },
+};
 </script>
 <style scoped>
 .article {

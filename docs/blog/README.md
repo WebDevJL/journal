@@ -1,8 +1,8 @@
 ---
-blog_index: true
+isIndexPage: true
 ---
 
 # My articles
 
 <!-- markdownlint-disable -->
-<!-- <blog-index /> -->
+<blog-index />
