@@ -51,7 +51,7 @@ Figure: _From left to right: Alyssia, Aurélie, Jérémie, Léyla_
 
 We own 2 sheep (to mow the grass)
 
-![The twin girls feed the twin sheep](/images/sheeps.jpg).
+![The twin girls feed the twin sheep](/images/sheep.jpg).
 
 Figure: _The twin girls feed the twin sheep_
 
