@@ -26,8 +26,8 @@ module.exports = {
   themeConfig: {
     logo: "https://vuejs.org/images/logo.png",
     navbar: [
-      { text: "About", link: "/" },
-      { text: "Blog", link: "/blog" },
+      { text: "About", link: "/en" },
+      { text: "Blog", link: "/en/blog" },
     ],
   },
   bundler: "@vuepress/vite",
