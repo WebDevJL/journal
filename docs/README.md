@@ -2,13 +2,11 @@
 
 ![Jeremie climbing the Kandersteg's viaferrata](/images/profilepic-400w.jpg)
 
+[Read in french](fr/README.md)
+
 Everyone has a story. This is mine. So far.
 
 I have created this website to record notes and experiences worth sharing because I had a _ahhh_ moment.
-
-It deals with quite a few topics not limited to the following:
-
-- diet
 
 ## Career
 
@@ -53,7 +51,7 @@ Figure: _From left to right: Alyssia, Aurélie, Jérémie, Léyla_
 
 We own 2 sheep (to mow the grass)
 
-![/images/sheeps.jpg](The twin girls feed the twin sheep).
+![The twin girls feed the twin sheep](/images/sheeps.jpg).
 
 Figure: _The twin girls feed the twin sheep_
 
