@@ -6,6 +6,7 @@
         <img
           :src="article.frontmatter.heroImage"
           :alt="article.frontmatter.heroAlt"
+          :title="article.frontmatter.heroAlt"
         />
         <p>{{ article.frontmatter.description }}</p>
       </a>

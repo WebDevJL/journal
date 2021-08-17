@@ -29,7 +29,7 @@ Entre autres, je parlerai des sujets suivants :
 - Avis sur des produits logiciels que j'ai utilisés
 - Astuces du développement sur le Web
 - Organisation du travail
-- Gestion d'une équipe
+<!-- - Gestion d'une équipe -->
 
 ## Et je parlerai de mes hobbies
 

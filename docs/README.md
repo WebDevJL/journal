@@ -26,7 +26,7 @@ Among those topics:
 - Software product review I have used
 - Web development tips
 - Work organisation
-- Team management
+<!-- - Team management -->
 
 ## And also my hobbies
 

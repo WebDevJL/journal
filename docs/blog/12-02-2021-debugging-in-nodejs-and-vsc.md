@@ -4,7 +4,7 @@ description: Debugging is at the heart of software development. Enable it today 
 # author: Jeremie Litzler
 date: 2021-02-12
 heroImage: "/images/12-02-2021-debugging-in-nodejs-and-vsc.jpg"
-heroAlt: Screenshot of the course homepage
+heroAlt: A robot connected to a computer on a soccer field.
 meta:
   keywords:
     - Web development
