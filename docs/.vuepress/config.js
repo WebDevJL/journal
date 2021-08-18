@@ -48,8 +48,8 @@ module.exports = {
     darkMode: true,
     logo: "https://vuejs.org/images/logo.png",
     navbar: [
-      { text: "About", link: "/en" },
-      { text: "Blog", link: "/en/blog" },
+      { text: "About", link: "/" },
+      { text: "Blog", link: "/blog" },
     ],
     selectLanguageText: "English",
     selectLanguageAriaLabel: "Switch to English",
@@ -60,6 +60,10 @@ module.exports = {
         selectLanguageAriaLabel: "Switch to French",
         selectLanguageName: "French",
       },
+      navbar: [
+        { text: "About", link: "/fr/" },
+        { text: "Blog", link: "/fr/blog/" },
+      ],
     },
   },
   bundler: "@vuepress/vite",
