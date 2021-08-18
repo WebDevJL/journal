@@ -25,10 +25,16 @@ import pages from "@temp/pages.js";
 import { getIndexStartWith } from "../helpers/MarkdownFilesIndexBuilder.js";
 
 export default {
+  props: {
+    startPath: {
+      type: String,
+      required: true,
+    },
+  },
   computed: {
     articles() {
       // console.log("all pages", pages);
-      const filteredPages = getIndexStartWith("/blog/", pages)
+      const filteredPages = getIndexStartWith(this.startPath, pages)
         .filter((x) => !x.frontmatter.isIndexPage)
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date),
