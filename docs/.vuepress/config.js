@@ -1,14 +1,35 @@
 // import path from "path";
-
+const titleDefault = "Journal of Jérémie Litzler";
+const titleFr = "Journal de Jérémie Litzler";
 module.exports = {
   lang: "en-US",
-  title: "Journal of Jérémie Litzler",
+  locales: {
+    "/fr/": {
+      lang: "fr-FR",
+      title: titleFr,
+      description:
+        "Je partage ici mes notes et experiences qui peuvent être importantes et utiles pour vous",
+      head: [
+        ["meta", { property: "og:title", content: titleFr }],
+        ["meta", { property: "og:type", content: "website" }],
+        ["meta", { property: "og:url", content: "https://iamjeremie.me/" }],
+        [
+          "meta",
+          {
+            property: "og:description",
+            content: "Notes, thoughts and experiences of Jérémie.",
+          },
+        ],
+      ],
+    },
+  },
+  title: titleDefault,
   description:
-    "I want to share my notes, thoughts and experiences because I believe it is important",
+    "I share my notes, thoughts and experiences that can be useful and important to you",
   repo: "https://github.com/JeremieLitzler/journal",
   //https://v2.vuepress.vuejs.org/reference/config.html#head
   head: [
-    ["meta", { property: "og:title", content: "Journal of Jérémie Litzler" }],
+    ["meta", { property: "og:title", content: titleDefault }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:url", content: "https://iamjeremie.me/" }],
     [
@@ -24,11 +45,22 @@ module.exports = {
     ["link", { rel: "apple-touch-icon", href: "/apple-touch-icon.png" }],
   ],
   themeConfig: {
+    darkMode: true,
     logo: "https://vuejs.org/images/logo.png",
     navbar: [
       { text: "About", link: "/en" },
       { text: "Blog", link: "/en/blog" },
     ],
+    selectLanguageText: "English",
+    selectLanguageAriaLabel: "Switch to English",
+    selectLanguageName: "English",
+    locales: {
+      "/fr/": {
+        selectLanguageText: "French",
+        selectLanguageAriaLabel: "Switch to French",
+        selectLanguageName: "French",
+      },
+    },
   },
   bundler: "@vuepress/vite",
   bundlerConfig: {
