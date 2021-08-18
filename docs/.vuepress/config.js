@@ -20,6 +20,46 @@ module.exports = {
             content: "Notes, thoughts and experiences of Jérémie.",
           },
         ],
+        ["meta", { property: "og:type", content: "website" }],
+        ["meta", { property: "og:image", content: "image.png" }],
+        ["meta", { name: "msapplication-TileColor", content: "#36377a" }],
+        ["meta", { name: "theme-color", content: "#36377a" }],
+        [
+          "link",
+          {
+            rel: "icon",
+            type: "image/png",
+            sizes: "32x32",
+            href: "/icons/favicon-32x32.png",
+          },
+        ],
+        [
+          "link",
+          {
+            rel: "icon",
+            type: "image/png",
+            sizes: "32x32",
+            href: "/icons/favicon-16x16.png",
+          },
+        ],
+        ["link", { rel: "icon", href: "/favicon.ico" }],
+        [
+          "link",
+          {
+            rel: "mask-icon",
+            href: "/icons/safari-pinned-tab.svg",
+            color: "#36377a",
+          },
+        ],
+        [
+          "link",
+          {
+            rel: "apple-touch-icon",
+            sizes: "180x180",
+            href: "/icons/apple-touch-icon.png",
+          },
+        ],
+        ["link", { rel: "manifest", href: "/site.webmanifest" }],
       ],
     },
   },
@@ -30,7 +70,6 @@ module.exports = {
   //https://v2.vuepress.vuejs.org/reference/config.html#head
   head: [
     ["meta", { property: "og:title", content: titleDefault }],
-    ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:url", content: "https://iamjeremie.me/" }],
     [
       "meta",
@@ -39,14 +78,50 @@ module.exports = {
         content: "Notes, thoughts and experiences of Jérémie.",
       },
     ],
+    ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:image", content: "image.png" }],
+    ["meta", { name: "msapplication-TileColor", content: "#36377a" }],
+    ["meta", { name: "theme-color", content: "#36377a" }],
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: "/icons/favicon-32x32.png",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: "/icons/favicon-16x16.png",
+      },
+    ],
     ["link", { rel: "icon", href: "/favicon.ico" }],
-    ["link", { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" }],
-    ["link", { rel: "apple-touch-icon", href: "/apple-touch-icon.png" }],
+    [
+      "link",
+      {
+        rel: "mask-icon",
+        href: "/icons/safari-pinned-tab.svg",
+        color: "#36377a",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+        href: "/icons/apple-touch-icon.png",
+      },
+    ],
+    ["link", { rel: "manifest", href: "/site.webmanifest" }],
   ],
   themeConfig: {
     darkMode: true,
-    logo: "https://vuejs.org/images/logo.png",
+    logo: "/icons/favicon-32x32.png",
     navbar: [
       { text: "About", link: "/" },
       { text: "Blog", link: "/blog" },
