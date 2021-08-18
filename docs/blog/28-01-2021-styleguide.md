@@ -24,11 +24,15 @@ A paragraph: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer di
 
 Quisque pharetra consectetur nulla, vel iaculis eros ultricies vitae. Nullam non eros id lorem volutpat laoreet non in arcu. Duis facilisis pretium libero eu tincidunt. Duis mauris tellus, commodo condimentum nibh scelerisque, tincidunt condimentum felis. Donec blandit, enim vitae vulputate auctor, quam dui molestie tortor, non pretium est orci vel lorem. Duis porta tortor faucibus ipsum efficitur molestie a nec felis. Mauris ullamcorper sed magna ut aliquet. Ut in nibh scelerisque, malesuada erat non, dapibus nibh. Duis aliquam porttitor consequat. Morbi elementum libero sed maximus accumsan.
 
+## A link
+
 [A markdown link](https://iamjeremie.me/post/styleguide).
+
+## An image
 
 ![An image](https://picsum.photos/200/300)
 
-A bullet list:
+## A bullet list
 
 - Item 1
 - Item 2
@@ -36,17 +40,17 @@ A bullet list:
   - Item 2.2
 - Item 3
 
-A short quote:
+## A short quote
 
 > A short quote of a few words
 
-And a long quote:
+## A long quote
 
 > Quoting text multilines.
 >
 > And more of the same quote that is long and allows to test how the text wraps in the width of the container.
 
-And a quote of a quote (double level):
+## A quote of a quote (double level)
 
 > first level of quote
 >
@@ -54,7 +58,7 @@ And a quote of a quote (double level):
 >
 > And first level again
 
-Some code:
+## Code highlighting
 
 ```js
 import React from "react";
@@ -82,10 +86,16 @@ class Expire extends React.Component {
 export default uniquePropHOC(["time", "seconds"])(Expire);
 ```
 
+## Special styles
+
 > A block quote with ~~strikethrough~~ and a URL: [See here](https://reactjs.org).
 
-No table supported yet...
+## Tables
 
-Check out the source [on GitHub](https://github.com/JeremieLitzler/iamjeremie.me/blob/master/posts/styleguide.md).
+| Col 1 | Col 2           | Col 3                                                |
+| ----- | --------------- | ---------------------------------------------------- |
+| Value | Very long value | So long that it will scroll horizontally? I hope so! |
 
-Photo by [Jan Losert](https://unsplash.com/@janlosert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash.
+Check out [the source on GitHub](https://github.com/JeremieLitzler/journal/blob/main/docs/en/blog/28-01-2021-styleguide.md).
+
+Hero photo by [Jan Losert](https://unsplash.com/@janlosert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash.
