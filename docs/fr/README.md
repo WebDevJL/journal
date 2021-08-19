@@ -1,5 +1,5 @@
 ---
-title: Bienvenue, je m'appelle Jérémie Litzler
+title: Bienvenue !
 description: Une présentation de Jérémie Litzler et du but du site.
 ---
 

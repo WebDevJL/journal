@@ -1,6 +1,6 @@
 // import path from "path";
-const titleDefault = "Journal of Jérémie Litzler";
-const titleFr = "Journal de Jérémie Litzler";
+const titleDefault = "Online journal by Jeremiel";
+const titleFr = "Un journal en ligne par Jeremiel";
 module.exports = {
   lang: "en-US",
   locales: {
