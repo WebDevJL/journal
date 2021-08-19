@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "jeremiel-blog",
+    "short_name": "jl-blog",
     "icons": [{
         "src": "/icons/android-chrome-192x192.png",
         "sizes": "192x192",
