@@ -1,5 +1,5 @@
 ---
-title: Hello reader !
+title: Hello dear reader !
 description: A brief presentation of Jérémie Litzler and the goal of this website.
 ---
 

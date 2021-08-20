@@ -1,6 +1,6 @@
 import { defineClientAppEnhance } from "@vuepress/client";
-import BlogIndex from "./components/BlogIndex.vue";
+import PostsIndex from "./components/PostsIndex.vue";
 
 export default defineClientAppEnhance(({ app, router, siteData }) => {
-  app.component("BlogIndex", BlogIndex);
+  app.component("PostsIndex", PostsIndex);
 });

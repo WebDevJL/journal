@@ -122,7 +122,10 @@ module.exports = {
   themeConfig: {
     darkMode: true,
     logo: "/icons/favicon-32x32.png",
-    navbar: [{ text: "About", link: "/" }],
+    navbar: [
+      { text: "Who am I", link: "/" },
+      { text: "Read now", link: "/posts/" },
+    ],
     selectLanguageText: "English",
     selectLanguageAriaLabel: "Switch to English",
     selectLanguageName: "English",
@@ -134,7 +137,7 @@ module.exports = {
       },
       navbar: [
         { text: "About", link: "/fr/" },
-        { text: "Blog", link: "/fr/blog/" },
+        { text: "Blog", link: "/fr/articles/" },
       ],
     },
   },

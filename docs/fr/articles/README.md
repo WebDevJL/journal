@@ -5,4 +5,4 @@ isIndexPage: true
 # My articles
 
 <!-- markdownlint-disable -->
-<blog-index startPath="/gardening/" />
+<posts-index startPath="/fr/articles/" />
