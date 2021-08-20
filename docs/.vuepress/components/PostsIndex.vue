@@ -10,7 +10,7 @@
         />
         <p>{{ article.frontmatter.description }}</p>
       </a>
-      <div class="keywords">
+      <div v-if="article.frontmatter.meta !== undefined" class="keywords">
         <span
           class="keyword"
           v-for="key in article.frontmatter.meta.keywords"
@@ -35,7 +35,7 @@ export default {
     articles() {
       // console.log("all pages", pages);
       const filteredPages = getIndexStartWith(this.startPath, pages)
-        .filter((x) => !x.frontmatter.isIndexPage)
+        .filter((x) => !x.frontmatter.isIndexPage || x.frontmatter.isDraft)
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date),
         );
