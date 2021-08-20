@@ -1,6 +1,8 @@
-// import path from "path";
+const { path } = require("@vuepress/utils");
+
 const titleDefault = "Online journal by Jeremiel";
 const titleFr = "Un journal en ligne par Jeremiel";
+
 module.exports = {
   lang: "en-US",
   locales: {
@@ -119,17 +121,24 @@ module.exports = {
     ],
     ["link", { rel: "manifest", href: "/site.webmanifest" }],
   ],
+  theme: path.resolve(__dirname, "./theme"),
   themeConfig: {
+    repo: "JeremieLitzler/journal",
+    docsRepo: "https://github.com/JeremieLitzler/journal",
+    docsBranch: "main",
+    docsDir: "docs",
+    editLinkPattern: ":repo/-/edit/:branch/:path",
     darkMode: true,
     logo: "/icons/favicon-32x32.png",
+    logoDark: "/icons/dark-favicon-32x32.png",
     navbar: [
       { text: "Who am I", link: "/" },
       { text: "Read now", link: "/posts/" },
     ],
-    selectLanguageText: "English",
+    selectLanguageText: "Switch to English",
     selectLanguageAriaLabel: "Switch to English",
-    selectLanguageName: "English",
     locales: {
+      "/": { selectLanguageName: "English" },
       "/fr/": {
         selectLanguageText: "French",
         selectLanguageAriaLabel: "Switch to French",
