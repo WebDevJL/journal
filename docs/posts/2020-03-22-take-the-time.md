@@ -1,9 +1,8 @@
 ---
 title: Balance your time. Balance your time.
 description: Life is made a lot of interesting stuff. Don't let any take over.
-# author: Jeremie Litzler
 date: 2020-03-22
-heroImage: "/images/take-the-time.jpeg"
+heroImage: '/images/take-the-time.jpeg'
 heroAlt: Someone walking on a log
 meta:
   keywords:

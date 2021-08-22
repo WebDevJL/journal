@@ -1,25 +1,23 @@
 ---
 title: A BEM Cheatsheet
 description: How does BEM work to structure CSS?
-# author: Jeremie Litzler
 date: 2018-02-21
 meta:
   keywords:
     - Web development
     - Guides
-# tag: CSS, BEM Methodology
 ---
 
 ## BEM Cheatsheet
 
 Edited with [>>Dillinger.io<<](https://dillinger.io/)
 
-### Sources
+## Sources
 
 - [BEM site](http://getbem.com/naming/)
 - [Medium article by Ohans Emmanuel](https://medium.freecodecamp.org/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849)
 
-### Examples for **Blocks**
+## Examples for **Blocks**
 
 ```css
 .stick-man {
@@ -30,7 +28,7 @@ Edited with [>>Dillinger.io<<](https://dillinger.io/)
 }
 ```
 
-### Examples for **Elements**
+## Examples for **Elements**
 
 ```css
 .stick-man__head {
@@ -44,7 +42,7 @@ Edited with [>>Dillinger.io<<](https://dillinger.io/)
 }
 ```
 
-### Examples for **Modifiers**
+## Examples for **Modifiers**
 
 ```css
 .stick-man--red {
@@ -55,7 +53,7 @@ Edited with [>>Dillinger.io<<](https://dillinger.io/)
 }
 ```
 
-### Combining Blocks, Elements and Modifiers
+## Combining Blocks, Elements and Modifiers
 
 Let's make a stick man with a big head and another one with a small head
 

@@ -1,15 +1,13 @@
 ---
 title: The Responsive Web Design Bootcamp - Course review
 description: Learn build mobile-friendly websites in a complete course using an interactive classroom.
-# author: Jeremie Litzler
 date: 2020-03-16
-heroImage: "/images/webresponsive-bootcamp-by-scrimba.png"
+heroImage: '/images/webresponsive-bootcamp-by-scrimba.png'
 heroAlt: Screenshot of the course homepage
 meta:
   keywords:
     - Web Fundamentals
     - Course reviews
-# tag: Scrimba, Interactive classroom
 ---
 
 <!-- markdownlint-disable -->

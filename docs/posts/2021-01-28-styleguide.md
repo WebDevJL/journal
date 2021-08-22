@@ -1,9 +1,8 @@
 ---
 title: Style guide of the site (H1)
 description: A set of examples of the various elements in a post and how they will look
-# author: Jeremie Litzler
 date: 2021-01-28
-heroImage: "/images/28-01-2021-styleguide.jpg"
+heroImage: '/images/28-01-2021-styleguide.jpg'
 heroAlt: A Macintosh computer on a desk
 meta:
   keywords:
@@ -61,8 +60,8 @@ Quisque pharetra consectetur nulla, vel iaculis eros ultricies vitae. Nullam non
 ## Code highlighting
 
 ```js
-import React from "react";
-import uniquePropHOC from "./lib/unique-prop-hoc";
+import React from 'react';
+import uniquePropHOC from './lib/unique-prop-hoc';
 
 // this comment is here to demonstrate an extremely long line length, well beyond what you should probably allow in your own code, though sometimes you'll be highlighting code you can't refactor, which is unfortunate but should be handled gracefully
 
@@ -83,7 +82,7 @@ class Expire extends React.Component {
   }
 }
 
-export default uniquePropHOC(["time", "seconds"])(Expire);
+export default uniquePropHOC(['time', 'seconds'])(Expire);
 ```
 
 ## Special styles
