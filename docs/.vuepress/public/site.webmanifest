@@ -1,6 +1,7 @@
 {
     "name": "jeremiel-blog",
     "short_name": "jl-blog",
+    "description": "Notes, thoughts and experiences of Jérémie Litzler",
     "icons": [{
         "src": "/icons/android-chrome-192x192.png",
         "sizes": "192x192",
@@ -12,7 +13,8 @@
         "type": "image/png",
         "purpose": "any maskable"
     }],
+    "start_url": "https://journal-of-jeremiel.netlify.app/",
+    "display": "fullscreen",
     "theme_color": "#36377a",
     "background_color": "#36377a",
-    "display": "standalone"
 }

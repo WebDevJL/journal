@@ -1,0 +1,21 @@
+{
+  // Place your Bible studies workspace snippets here.
+  //https://docs.google.com/spreadsheets/d/16WsEC2-D2LIgBPQzKa5XWPYZaNAVekaDCeJBANcF7wk
+  "Frontmatter Template": {
+    "scope": "markdown",
+    "prefix": "set frontmatter",
+    "body": [
+      "---",
+      "title: $1",
+      "description: $2",
+      "date: $3",
+      "heroImage: \"/images/$4.jpg\"",
+      "heroAlt: $5",
+      "meta:",
+      "  keywords:",
+      "    - $5",
+      "---"
+    ],
+    "description": "Set fronmatter to the new post"
+  }
+}
