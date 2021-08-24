@@ -3,11 +3,13 @@
     <div class="article" v-for="article in articles">
       <a v-bind:href="article.path"
         ><h2>{{ article.title }}</h2>
-        <img
-          :src="article.frontmatter.heroImage"
-          :alt="article.frontmatter.heroAlt"
-          :title="article.frontmatter.heroAlt"
-        />
+        <div v-if="article.frontmatter.heroImage" class="image-cropped-wrapper">
+          <img
+            :src="article.frontmatter.heroImage"
+            :alt="article.frontmatter.heroAlt"
+            :title="article.frontmatter.heroAlt"
+          />
+        </div>
         <p>{{ article.frontmatter.description }}</p>
       </a>
       <div v-if="article.frontmatter.meta !== undefined" class="keywords">
@@ -17,6 +19,7 @@
           >{{ key }}</span
         >
       </div>
+      <hr />
     </div>
   </div>
 </template>
@@ -47,9 +50,10 @@ export default {
 </script>
 <style scoped>
 .article {
-  margin-bottom: 20px;
-  border-left: solid 5px #3eaf7c;
-  padding: 20px;
+  padding: 0 0 2em;
+}
+.article hr {
+  border-bottom: solid 5px var(--c-brand);
 }
 .keywords {
   margin-top: 10px;
@@ -58,7 +62,7 @@ export default {
   padding: 5px;
   border-radius: 7px;
   font-size: small;
-  background: #3eaf7c;
+  background: var(--c-brand);
   margin-right: 5px;
   color: white;
   font-weight: 500;
