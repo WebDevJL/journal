@@ -25,9 +25,9 @@ Une fois activer, on règle l'intensité : personnellement, je met la valeur 50.
 
 Regarder la différence :
 
-![Image sans l'éclairage nocture](/images/reduire-la-lumiere-bleue-windows-10-sans-option.jpg)
+![Image sans l'éclairage nocture](/images/reduce-blue-light-windows-10-without-nighttime.jpg)
 
-![Image avec l'éclairage nocture](/images/reduire-la-lumiere-bleue-windows-10-avec-option.jpg)
+![Image avec l'éclairage nocture](/images/reduce-blue-light-windows-10-with-nighttime.jpg)
 
 ## Ajuster sur Android
 
@@ -38,7 +38,7 @@ Cela fonctionne de la même façon :
 - on active l'option
 - on la règle : personnellement, je met au maximum !
 
-![Paramètre sur Android](/images/reduire-la-lumiere-bleue-android.jpg))
+![Paramètre sur Android](/images/reduce-blue-light-android.jpg)
 
 :::tip
 Vous aurez aussi remarqué que j'utilise le _mode Sombre_. Cela aide aussi, mais tout le monde n'est pas fan. Chacun ses préférences.

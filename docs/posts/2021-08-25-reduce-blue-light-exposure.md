@@ -38,7 +38,7 @@ It works similarly to Windows 10:
 - you activate the option
 - you adjust it: personally, I set to the maximum !
 
-![Android setup of the parameter](/images/reduce-blue-light-android.jpg))
+![Android setup of the parameter](/images/reduce-blue-light-android.jpg)
 
 :::tip
 You might also notice that I use the _Dark mode_. That also helps, but not everyone likes it. It is a matter of taste..
