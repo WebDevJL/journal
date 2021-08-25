@@ -2,8 +2,6 @@
 title: How to reduce one's exposition to blue light
 description: This will help you a lot if you spend a lot of time in front of a screen
 date: 2021-08-25
-heroImage: "/images/.jpg"
-heroAlt:
 meta:
   keywords:
     - Health
