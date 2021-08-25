@@ -21,6 +21,10 @@ export default {
 :root {
   --c-palette-dark: #07070a;
   --c-palette-light: #fffff3;
+  /* don't forget to replace the hex code project wide
+  and regenerate the icons :-)
+  if you change --c-palette-1
+  */
   --c-palette-1: #18a558;
   --c-palette-2: #a3ebb1;
   --c-palette-3: #21b6a8;
@@ -44,7 +48,7 @@ export default {
   --c-border: var(--c-palette-2);
   --c-border-dark: var(--c-palette-4);
   --c-tip: var(--c-brand);
-  --c-tip-bg: var(--c-bg-light);
+  --c-tip-bg: var(--c-palette-2);
   --c-tip-title: var(--c-text);
   --c-tip-text: var(--c-text);
   --c-tip-text-accent: var(--c-text-accent);
@@ -103,6 +107,9 @@ html.dark {
   --c-text-lighter: var(--c-text);
   --c-text-lightest: var(--c-text);
   --c-tip: var(--c-brand);
+  --c-tip-text: var(--c-bg-dark);
+  --c-tip-title: var(--c-tip-text);
+  --c-tip-text-accent: var(--c-text-accent);
   --c-warning: #f8ca00;
   --c-warning-bg: #7e755b;
   --c-warning-title: #f8ca00;
