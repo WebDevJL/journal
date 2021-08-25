@@ -52,9 +52,6 @@ export default {
 .article {
   padding: 0 0 2em;
 }
-.article hr {
-  border-bottom: solid 5px var(--c-brand);
-}
 .keywords {
   margin-top: 10px;
 }

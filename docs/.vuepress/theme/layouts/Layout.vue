@@ -19,33 +19,31 @@ export default {
 
 <style lang="css">
 :root {
-  --c-palette-0: #272625;
-  --c-palette-1: #490a3d;
-  --c-palette-2: #bd1550;
-  --c-palette-3: #e97f02;
-  --c-palette-4: #f8ca00;
-  --c-palette-5: #fffff3;
+  --c-palette-dark: #07070a;
+  --c-palette-light: #fffff3;
+  --c-palette-1: #18a558;
+  --c-palette-2: #a3ebb1;
+  --c-palette-3: #21b6a8;
+  --c-palette-4: #116530;
   --c-brand: var(--c-palette-1);
-  --c-brand-light: #eb3575;
-  --c-bg: var(--c-palette-5);
-  --c-bg-dark: var(--c-palette-0);
-  --c-bg-light: #f3f4f5;
-  --c-bg-lighter: #eeeeee;
+  --c-brand-light: var(--c-palette-2);
+  --c-bg: var(--c-palette-light);
+  --c-bg-dark: var(--c-palette-dark);
+  --c-bg-light: var(--c-bg);
+  --c-bg-lighter: var(--c-bg);
   --c-bg-navbar: var(--c-bg);
   --c-bg-sidebar: var(--c-bg);
   --c-bg-arrow: #cccccc;
-  --c-text: var(--c-palette-0);
+  --c-text: var(--c-palette-dark);
+  --c-text-hover-brightness: 0.9;
   --c-text-accent: var(--c-brand);
-  --c-text-hover: var(--c-palette-4);
-  --c-text-focus: var(--c-palette-1);
-  --c-text: #272625;
-  --c-text-light: #31302f;
-  --c-text-lighter: #413f3d;
-  --c-text-lightest: #53514e;
-  --c-text-quote: #999999;
-  --c-border: #eaecef;
-  --c-border-dark: #dfe2e5;
-  --c-tip: #490a3d;
+  --c-text-light: var(--c-text);
+  --c-text-lighter: var(--c-text);
+  --c-text-lightest: var(--c-text);
+  --c-text-quote: var(--c-palette-4);
+  --c-border: var(--c-palette-2);
+  --c-border-dark: var(--c-palette-4);
+  --c-tip: var(--c-brand);
   --c-tip-bg: var(--c-bg-light);
   --c-tip-title: var(--c-text);
   --c-tip-text: var(--c-text);
@@ -66,9 +64,9 @@ export default {
   --c-badge-danger: var(--c-danger);
   --t-color: 0.3s ease;
   --t-transform: 0.3s ease;
-  --code-bg-color: #282c34;
+  --code-bg-color: var(--c-palette-dark);
   --code-hl-bg-color: rgba(0, 0, 0, 0.66);
-  --code-ln-color: #9e9e9e;
+  --code-ln-color: var(--c-palette-light);
   --code-ln-wrapper-width: 3.5rem;
   --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -89,28 +87,22 @@ export default {
   --h5: calc(var(--text-size) * 1.05);
   /*hover and focus*/
   --scale-start: 1;
-  --scale-end: 1.05;
-  --scale-time: 150ms;
+  --scale-end: 1.02;
+  --scale-time: 250ms;
   --interact-pd: 0em;
   --interact-bd-rad: 0.25em;
 }
 
 html.dark {
-  --c-brand: var(--c-palette-3);
-  --c-brand-light: #eb3575;
-  --c-bg: var(--c-palette-0);
-  --c-bg-dark: var(--c-palette-4);
-  --c-bg-light: var(--c-palette-1);
-  --c-bg-lighter: #262c34;
-  --c-text: #c8d3da;
-  --c-text-hover: var(--c-palette-0);
-  --c-text-focus: var(--c-palette-5);
-  --c-text-light: #e1eef6;
-  --c-text-lighter: #e1eef6;
-  --c-text-lightest: #e1eef6;
-  --c-border: #3e4c5a;
-  --c-border-dark: #34404c;
-  --c-tip: #eb3575;
+  --c-bg: var(--c-palette-dark);
+  --c-bg-light: var(--c-palette-light);
+  --c-bg-lighter: var(--c-bg-light);
+  --c-text: var(--c-palette-light);
+  --c-text-hover-brightness: 1.4;
+  --c-text-light: var(--c-text);
+  --c-text-lighter: var(--c-text);
+  --c-text-lightest: var(--c-text);
+  --c-tip: var(--c-brand);
   --c-warning: #f8ca00;
   --c-warning-bg: #7e755b;
   --c-warning-title: #f8ca00;
@@ -124,6 +116,13 @@ html.dark {
 }
 
 /* Typo*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--c-brand);
+}
 h1 {
   font-size: var(--h1);
   text-align: center;
@@ -143,6 +142,7 @@ h5 {
 hr {
   margin: 2em auto;
   width: 10em;
+  height: 2px;
 }
 a,
 button {
@@ -151,21 +151,28 @@ button {
   display: inline-block;
 }
 a:hover,
+button:hover,
+a:focus,
+button:focus,
+a:hover .navbar .site-name,
+a:focus .navbar .site-name {
+  transform: scale(var(--scale-end));
+}
+
+a:hover,
 a:focus {
   border-radius: 0 var(--interact-bd-rad) 0 var(--interact-bd-rad);
 }
 .dropdown-wrapper .nav-dropdown .dropdown-item a:hover,
-a:hover .site-name,
+a:hover .navbar .site-name,
 a:hover {
-  color: var(--c-text-hover);
-  background-color: var(--c-bg-dark);
-  transform: scale(var(--scale-end));
+  filter: brightness(var(--c-text-hover-brightness));
+  padding: 2px;
 }
 .dropdown-wrapper .nav-dropdown .dropdown-item a:focus,
-a:focus .site-name,
+a:focus .navbar .site-name,
 a:focus {
-  border: 2px dashed var(--c-text-focus);
-  transform: scale(var(--scale-end));
+  border: 2px dashed var(--c-brand-light);
 }
 
 /* Layout */

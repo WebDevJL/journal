@@ -18,8 +18,8 @@ module.exports = {
     ],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:image", content: "image.png" }],
-    ["meta", { name: "msapplication-TileColor", content: "#36377a" }],
-    ["meta", { name: "theme-color", content: "#36377a" }],
+    ["meta", { name: "msapplication-TileColor", content: "#18a558" }],
+    ["meta", { name: "theme-color", content: "#18a558" }],
     [
       "link",
       {
@@ -44,7 +44,7 @@ module.exports = {
       {
         rel: "mask-icon",
         href: "/icons/safari-pinned-tab.svg",
-        color: "#36377a",
+        color: "#18a558",
       },
     ],
     [

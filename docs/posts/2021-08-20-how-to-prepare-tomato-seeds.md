@@ -1,5 +1,5 @@
 ---
-title: How to prepare tomatoe seeds after a harvest
+title: How to prepare tomato seeds after a harvest
 description: "So I can plant new seedlings next year :smile:"
 date: 2021-08-21
 isDraft: true
