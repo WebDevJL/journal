@@ -9,7 +9,7 @@ meta:
 
 [Read the french version](../fr/articles/2021-08-25-reduire-son-exposition-a-la-lumiere-bleue.md)
 
-## Do you the _blue light_
+## Do you know the _blue light_
 
 Nowadays, it is everywhere: personal computers, smartphones, tablets...
 
