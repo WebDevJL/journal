@@ -17,7 +17,7 @@ module.exports = {
     docsRepo: "https://github.com/JeremieLitzler/journal",
     docsBranch: "main",
     docsDir: "docs",
-    editLinkPattern: ":repo/-/edit/:branch/:path",
+    editLinkPattern: ":repo/edit/:branch/:path",
     darkMode: true,
     logo: "/icons/favicon-32x32.png",
     logoDark: "/icons/dark-favicon-32x32.png",
