@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://iamjeremie.me/</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/fr/</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2021-08-25-reduce-blue-light-exposure.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2021-08-20-how-to-prepare-tomato-seeds.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2021-02-12-debugging-in-nodejs-and-vsc.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2021-01-28-styleguide.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2021-01-26-js30-by-wesbos.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2020-12-20-es6-by-wesbos.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2020-03-25-do-we-need-the-coronavirus-to-reduce-our-impact-on-our-environment.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2020-03-22-take-the-time.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2020-03-22-webresponsive-bootcamp-by-scrimba.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2018-02-23-mastering-css-grid.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2018-02-21-css-variables.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2018-02-22-es2018-es2019-notes.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2018-02-21-bem-cheatsheet.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2020-03-09-be-nicer.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/posts/2021-08-22-gardening-in-2021.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://iamjeremie.me/fr/articles/2021-08-25-reduire-son-exposition-a-la-lumiere-bleue.html</loc>
+  <lastmod>2021-08-26T07:03:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
