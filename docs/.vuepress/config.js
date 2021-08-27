@@ -25,19 +25,19 @@ module.exports = {
       { text: "Who am I", link: "/" },
       { text: "Read now", link: "/posts/" },
     ],
-    selectLanguageText: "English",
+    selectLanguageText: "Change language",
     selectLanguageAriaLabel: "Change language",
     locales: {
       "/": { selectLanguageName: "English" },
       "/fr/": {
-        selectLanguageText: "Français",
+        selectLanguageText: "Changer de langue",
         selectLanguageAriaLabel: "Changer de langue",
         selectLanguageName: "Français",
+        navbar: [
+          { text: "Qui suis-je", link: "/fr/" },
+          { text: "Lire les articles", link: "/fr/articles/" },
+        ],
       },
-      navbar: [
-        { text: "About", link: "/fr/" },
-        { text: "Blog", link: "/fr/articles/" },
-      ],
     },
   },
   bundler: "@vuepress/vite",
