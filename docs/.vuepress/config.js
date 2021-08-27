@@ -22,7 +22,8 @@ module.exports = {
     logo: "/icons/favicon-32x32.png",
     logoDark: "/icons/dark-favicon-32x32.png",
     navbar: [
-      { text: "Who am I", link: "/" },
+      { text: "Home", link: "/" },
+      { text: "Who am I", link: "/about" },
       { text: "Read now", link: "/posts/" },
     ],
     selectLanguageText: "Change language",
@@ -34,7 +35,8 @@ module.exports = {
         selectLanguageAriaLabel: "Changer de langue",
         selectLanguageName: "Français",
         navbar: [
-          { text: "Qui suis-je", link: "/fr/" },
+          { text: "Accueil", link: "/fr/" },
+          { text: "Qui suis-je", link: "/fr/a-propos/" },
           { text: "Lire les articles", link: "/fr/articles/" },
         ],
       },

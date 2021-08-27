@@ -1,8 +1,8 @@
 ---
 isIndexPage: true
+title: My posts
+description: List of my posts written so far
 ---
-
-# My articles
 
 <!-- markdownlint-disable -->
 <posts-index startPath="/posts/" />

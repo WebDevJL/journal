@@ -1,8 +1,8 @@
 ---
 isIndexPage: true
+title: Mes articles
+description: Liste de mes articles écrits jusqu'à présent
 ---
-
-# My articles
 
 <!-- markdownlint-disable -->
 <posts-index startPath="/fr/articles/" />
