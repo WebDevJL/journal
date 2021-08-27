@@ -1,7 +1,7 @@
 {
-    "name": "A blog, written by Jérémie Litzler",
-    "short_name": "Blog of Jeremiel",
-    "description": "A PWA listing notes and experiences of Jérémie Litzler",
+    "name": "Un blog, maintenu par Jérémie Litzler",
+    "short_name": "Blog de Jeremiel",
+    "description": "Une application web progressive contenant les notes et experiences de Jérémie Litzler",
     "icons": [{
         "src": "/icons/android-chrome-192x192.png",
         "sizes": "192x192",
@@ -13,7 +13,7 @@
         "type": "image/png",
         "purpose": "any maskable"
     }],
-    "start_url": "https://iamjeremie.me/",
+    "start_url": "https://iamjeremie.me/fr/",
     "display": "fullscreen",
     "theme_color": "#18a558",
     "background_color": "#18a558"

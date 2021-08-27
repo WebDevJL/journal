@@ -55,6 +55,6 @@ module.exports = {
         href: "/icons/apple-touch-icon.png",
       },
     ],
-    ["link", { rel: "manifest", href: "/site.webmanifest" }],
+    ["link", { rel: "manifest", href: "/site.fr.webmanifest" }],
   ],
 };
