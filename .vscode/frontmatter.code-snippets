@@ -1,6 +1,4 @@
 {
-  // Place your Bible studies workspace snippets here.
-  //https://docs.google.com/spreadsheets/d/16WsEC2-D2LIgBPQzKa5XWPYZaNAVekaDCeJBANcF7wk
   "Frontmatter Template": {
     "scope": "markdown",
     "prefix": "set frontmatter",
