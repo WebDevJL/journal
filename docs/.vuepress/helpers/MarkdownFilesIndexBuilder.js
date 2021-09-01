@@ -23,7 +23,7 @@ export function getIndexRegex(parentFolderFilter, data) {
       return fileParsed;
     }
   });
-  console.info(matchedFiles);
+  //console.info(matchedFiles);
   return matchedFiles;
 }
 
@@ -49,6 +49,6 @@ export function getIndexStartWith(parentFolderFilter, data) {
       return fileParsed;
     }
   });
-  console.info(matchedFiles);
+  //console.info(matchedFiles);
   return matchedFiles;
 }
