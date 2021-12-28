@@ -1,7 +1,7 @@
 ---
 title: How to create aliases to use Git CLI more
 description: "Let's be productive and use shortcuts!"
-date: 2021-09-12
+date: 2021-12-28
 ##heroImage: "/images/.jpg"
 ##heroAlt:
 meta:
