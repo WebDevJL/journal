@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="article" v-for="article in articles">
+  <section class="posts">
+    <article class="post" v-for="article in articles">
       <a v-bind:href="article.path"
         ><h2>{{ article.title }}</h2>
         <div v-if="article.frontmatter.heroImage" class="image-cropped-wrapper">
@@ -20,12 +20,12 @@
         >
       </div>
       <hr />
-    </div>
-  </div>
+    </article>
+  </section>
 </template>
 <script>
-import pages from "@temp/pages.js";
-import { getIndexStartWith } from "../helpers/MarkdownFilesIndexBuilder.js";
+import pages from '@temp/pages.js';
+import { getIndexStartWith } from '../helpers/MarkdownFilesIndexBuilder.js';
 
 export default {
   props: {
@@ -49,7 +49,7 @@ export default {
 };
 </script>
 <style scoped>
-.article {
+.post {
   padding: 0 0 2em;
 }
 .keywords {

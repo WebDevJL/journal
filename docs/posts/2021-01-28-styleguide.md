@@ -2,7 +2,7 @@
 title: Style guide of the site (H1)
 description: A set of examples of the various elements in a post and how they will look
 date: 2021-01-28
-heroImage: '/images/28-01-2021-styleguide.jpg'
+heroImage: '/images/2021-01-28-styleguide.jpg'
 heroAlt: A Macintosh computer on a desk
 meta:
   keywords:

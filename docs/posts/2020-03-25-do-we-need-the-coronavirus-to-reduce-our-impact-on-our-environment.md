@@ -2,8 +2,8 @@
 title: Do we need the coronavirus to reduce our impact on our environment?
 description: Or is it something that is under our noses?
 date: 2020-03-25
-heroImage: '/images/do-we-need-the-coronavirus.jpeg'
-heroAlt: Drawing of a scooter driver
+heroImage: '/images/do-we-need-the-coronavirus-hero.jpeg'
+heroAlt: Drawing on a wall of a scooter driver
 meta:
   keywords:
     - Health and Diet
