@@ -33,12 +33,19 @@ export default {
       type: String,
       required: true,
     },
+    showDrafts: {
+      type: Boolean,
+    },
   },
   computed: {
     articles() {
       // console.log("all pages", pages);
       const filteredPages = getIndexStartWith(this.startPath, pages)
-        .filter((x) => !x.frontmatter.isIndexPage || x.frontmatter.isDraft)
+        .filter((x) => {
+          //console.log(`${x.slug} => isIndexPage=${x.frontmatter.isIndexPage}`);
+          console.log(`${x.slug} => isDraft=${x.frontmatter.isDraft}`);
+          if (!x.frontmatter.isIndexPage && !x.frontmatter.isDraft) return x;
+        })
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date),
         );
