@@ -44,7 +44,11 @@ export default {
         .filter((x) => {
           //console.log(`${x.slug} => isIndexPage=${x.frontmatter.isIndexPage}`);
           console.log(`${x.slug} => isDraft=${x.frontmatter.isDraft}`);
-          if (!x.frontmatter.isIndexPage && !x.frontmatter.isDraft) return x;
+          if (
+            (this.showDrafts && !x.frontmatter.isIndexPage) || //show drafts only
+            (!x.frontmatter.isIndexPage && !x.frontmatter.isDraft) //or not...
+          )
+            return x;
         })
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date),
