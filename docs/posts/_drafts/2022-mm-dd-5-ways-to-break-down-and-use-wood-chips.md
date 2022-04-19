@@ -2,7 +2,7 @@
 isDraft: true
 title: 5 Ways to Break Down and Use Wood Chips
 description: The article gives you my note on Charles Dowding video on the topic
-date: 2022-03-17
+date: 2022-mm-dd
 heroImage: '/images/default.jpg'
 heroAlt: The Youtube video picture
 meta:
