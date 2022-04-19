@@ -1,60 +1,60 @@
-const titleDefault = "Online journal by Jeremiel";
+const titleDefault = 'A journal, by Jeremie Litzler';
 
 module.exports = {
   title: titleDefault,
   description:
-    "I share my notes, thoughts and experiences that can be useful and important to you",
-  repo: "https://github.com/JeremieLitzler/journal",
+    'I share my notes, thoughts and experiences that can be useful and important to you',
+  repo: 'https://github.com/JeremieLitzler/journal',
   //https://v2.vuepress.vuejs.org/reference/config.html#head
   head: [
-    ["meta", { property: "og:title", content: titleDefault }],
-    ["meta", { property: "og:url", content: "https://iamjeremie.me/" }],
+    ['meta', { property: 'og:title', content: titleDefault }],
+    ['meta', { property: 'og:url', content: 'https://iamjeremie.me/' }],
     [
-      "meta",
+      'meta',
       {
-        property: "og:description",
-        content: "Notes, thoughts and experiences of Jérémie.",
+        property: 'og:description',
+        content: 'Notes, thoughts and experiences of Jérémie.',
       },
     ],
-    ["meta", { property: "og:type", content: "website" }],
-    ["meta", { property: "og:image", content: "image.png" }],
-    ["meta", { name: "msapplication-TileColor", content: "#18a558" }],
-    ["meta", { name: "theme-color", content: "#18a558" }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:image', content: 'image.png' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#18a558' }],
+    ['meta', { name: 'theme-color', content: '#18a558' }],
     [
-      "link",
+      'link',
       {
-        rel: "icon",
-        type: "image/png",
-        sizes: "32x32",
-        href: "/icons/favicon-32x32.png",
-      },
-    ],
-    [
-      "link",
-      {
-        rel: "icon",
-        type: "image/png",
-        sizes: "16x16",
-        href: "/icons/favicon-16x16.png",
-      },
-    ],
-    ["link", { rel: "icon", href: "/favicon.ico" }],
-    [
-      "link",
-      {
-        rel: "mask-icon",
-        href: "/icons/safari-pinned-tab.svg",
-        color: "#18a558",
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/icons/favicon-32x32.png',
       },
     ],
     [
-      "link",
+      'link',
       {
-        rel: "apple-touch-icon",
-        sizes: "180x180",
-        href: "/icons/apple-touch-icon.png",
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/icons/favicon-16x16.png',
       },
     ],
-    ["link", { rel: "manifest", href: "/site.webmanifest" }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    [
+      'link',
+      {
+        rel: 'mask-icon',
+        href: '/icons/safari-pinned-tab.svg',
+        color: '#18a558',
+      },
+    ],
+    [
+      'link',
+      {
+        rel: 'apple-touch-icon',
+        sizes: '180x180',
+        href: '/icons/apple-touch-icon.png',
+      },
+    ],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
   ],
 };

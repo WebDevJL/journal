@@ -19,7 +19,7 @@
           >{{ key }}</span
         >
       </div>
-      <hr />
+      <!-- <hr /> -->
     </article>
   </section>
 </template>
@@ -59,10 +59,7 @@ export default {
   },
 };
 </script>
-<style scoped>
-.post {
-  padding: 0 0 2em;
-}
+<style>
 .keywords {
   margin-top: 10px;
 }

@@ -188,6 +188,21 @@ a:focus {
 }
 
 /* Layout */
+.post {
+  margin: 1em 0;
+  padding: 1.25em 1em;
+  border-radius: 8px;
+  border: 1px solid var(--c-brand-light);
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.post p {
+  color: var(--c-text);
+}
+
 .article img,
 .post a {
   width: 100%;
