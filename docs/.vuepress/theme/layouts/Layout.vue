@@ -207,6 +207,11 @@ a:focus {
 .post a {
   width: 100%;
 }
+
+.theme-default-content:not(.custom) img {
+  width: 100%;
+}
+
 .image-cropped-wrapper {
   max-height: 5em;
   overflow: hidden;

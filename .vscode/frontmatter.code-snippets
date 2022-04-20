@@ -4,6 +4,7 @@
     "prefix": "set frontmatter",
     "body": [
       "---",
+      "isDraft: true",
       "title: $1",
       "description: $2",
       "date: $3",
