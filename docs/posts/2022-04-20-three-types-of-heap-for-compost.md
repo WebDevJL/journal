@@ -8,6 +8,8 @@ meta:
   keywords:
     - Garden
     - Compost
+    - Charles Dowding
+    - Vlog notes
 ---
 
 ![Cover of the vlog from Youtube and Charles Dowding](/images/2022-mm-dd-three-types-of-heap-for-compost.webp)
