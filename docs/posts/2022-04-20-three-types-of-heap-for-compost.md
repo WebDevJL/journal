@@ -2,7 +2,7 @@
 title: Three Types of Heap, see how they work and the compost they make
 description: Notes from the vlog, by Charles Dowding
 date: 2022-04-20
-heroImage: '/images/2022-mm-dd-three-types-of-heap-for-compost.webp'
+heroImage: '/images/2022-04-20-three-types-of-heap-for-compost.webp'
 heroAlt: 'Cover of the vlog from Youtube and Charles Dowding'
 meta:
   keywords:
@@ -12,7 +12,7 @@ meta:
     - Vlog notes
 ---
 
-![Cover of the vlog from Youtube and Charles Dowding](/images/2022-mm-dd-three-types-of-heap-for-compost.webp)
+![Cover of the vlog from Youtube and Charles Dowding](/images/2022-04-20-three-types-of-heap-for-compost.webp)
 _Credits: cover image by Youtube and Charles Dowding._
 
 The following are my notes from the vlog ["Three Types of Heap, see how they work and the compost they make"](https://www.youtube.com/watch?v=b7Aa525oW34) from Charles Dowding.
