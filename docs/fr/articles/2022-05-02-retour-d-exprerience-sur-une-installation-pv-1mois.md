@@ -20,6 +20,10 @@ La propriété fait environ 4000 m², en terrasse très rocheuses.
 
 Rien de très accueillant pour planter quelque chose (on a essayé...), mais exploitable pour poser quelques panneaux PV.
 
+Nous chauffons notre ECS (eau chaude sanitaire) en heures creuses et nous avons isolé, avec de la laine de mouton brute, le cumulus le premier hiver, car il se trouve dans le garage et il peut y faire 8°c...
+
+Cela nous avait permis de réduire de 12kWh pour chauffer l'ECS à 8kWh pour une journée et consommation d'ESC équivalente.
+
 ## Pourquoi une installation PV
 
 Je suis assez regardant sur la consommation électrique. 
@@ -27,17 +31,23 @@ J'ai réalisé une estimation de notre consommation, par élément électrifié 
 
 *Inclure tableau Google sheets*
 
+J'avais estimé à 30% la part de consommation du cumulus ECS.
+
 J'ai aussi suivi de près notre consommation, un relevé journalier sur le compteur EDF pendant plusieurs années, puis plus récemment, un relevé hebdommadaire, pour connaitre notre consommation passive (e.g. combien la maison a-t-elle besoin pendant nos absences ?), notre consommation jour et nuit, et pour le cas du chauffe-eau, un comptage spécifique à partir novembre 2019.
 
 Voici ce que ça donne depuis 2014 :
 
 *Image du pivot HC, HP et consommation ECS*
 
-J'ai aussi réalisé une simulation d'ensoleillement avec [Heliorama]() au niveau du toit de la maison (point le plus bas de la propriété) et au niveau de la terrasse la plus haute sur la propriété (pour le plus ensoleillé).
+Cela a confirmé l'estimation du cumulus.
+
+J'ai aussi réalisé une simulation d'ensoleillement avec [Heliorama](https://www.heliorama.com/) au niveau du toit de la maison (point le plus bas de la propriété) et au niveau de la terrasse la plus haute sur la propriété (pour le plus ensoleillé).
 
 *Mettre graphique comparatif*
 
-Comme vous le voyez, il n'y a pas photo ! Si l'on voulait produit de l'électricité avec le soleil, la terrasse est le meilleur site, même si la propriété n'a pas l'ensoleillement le plus idéal du monde.
+Comme vous le voyez, il n'y a pas photo ! 
+
+Si l'on voulait produit de l'électricité avec le soleil, la terrasse est le meilleur site, même si la propriété n'a pas l'ensoleillement le plus idéal du monde.
 
 ## Pourquoi une réalisation qu'en 2022 ?
 
@@ -65,3 +75,28 @@ Voici le plan de l'installation :
 
 ## Que disent les chiffres après un mois ?
 
+Du 1er avril and 30 avril, nous avons :
+
+| produit (kWh) | autoconsommé (kWh) | injecté sur le réseau (kWh) |
+| - | - | - |
+| 160,6 | 147,6 | 13 |
+
+Nous avons donc une belle consommation de la production (> 90%).
+Il y aurait moins d'injection si j'avais branché la pince ampèremétrique du routeur solaire dans le bon sens, ce que j'ai réalisé le 4 avril.
+
+Si l'on compare les mêmes données de la mise en service le 27 mars au 4 avril, on voit :
+
+| produit (kWh) | autoconsommé (kWh) | injecté sur le réseau (kWh) |
+| - | - | - |
+| 30.8 | 12,8 | 18 |
+
+soit à peine 40%. C'est dommage vu qu'on ne peut revendre quand les panneaux sont installés au sol...
+
+## Quelles sont mes observations ?
+
+### Eau chaude sanitaire
+
+On a mis le chauffe-eau sur 4/5 au lieu de 3/5 quand on chauffe sur les heures creuses.
+
+
+Ce que j'ai observé est qu'on injecte environ 100Wh sur le réseau avec le routeur solaire, soit 1kWh tous les 10 jours.
