@@ -100,3 +100,13 @@ On a mis le chauffe-eau sur 4/5 au lieu de 3/5 quand on chauffe sur les heures c
 
 
 Ce que j'ai observé est qu'on injecte environ 100Wh sur le réseau avec le routeur solaire, soit 1kWh tous les 10 jours.
+
+### Consommation journalière avec présence 
+
+### Consommation journalière en notre absence
+
+En février 2022, nous avons été absent pendant 5 semaines. La consommation journalière moyenne était de 2.5 kWh.
+
+*Insert typical day image*
+
+En avril 2022, nous avons été absent pendant quelques jours. La consommation journalière moyenne est descendue à 0.7 kWh, soit -72%. Pas mal !
