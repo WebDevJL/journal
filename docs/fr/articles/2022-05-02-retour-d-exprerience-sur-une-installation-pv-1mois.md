@@ -63,7 +63,7 @@ Je me dis *C'est dans mon budget !*. En effet, j'avais un budget max de 2000 eur
 
 Après quelques échanges très intéressants avec l'artisan de SolaireEthic (voir [son site web](https://solairethic.fr/) très intéressant), nous partons pour la solution suivante :
 
-- 1 micro onduleur 4 MPPT 
+- 1 micro onduleur APSystems 4 MPPT 
 - 1 ligne en AC enterrée de 120 m de long de la terrasse à la maison (à 50cm du tableau général)
 - 8 panneaux de 190Wc recyclés (7-8 ans d'âge)
 
@@ -94,12 +94,22 @@ soit à peine 40%. C'est dommage vu qu'on ne peut revendre quand les panneaux so
 
 ## Quelles sont mes observations ?
 
+### Routeur solaire 
+
+Il est très efficace.
+J'ai observé qu'on injecte environ 100Wh sur le réseau avec le routeur solaire, soit 1kWh tous les 10 jours.
+C'est très marginal.
+
+Par contre, les compteurs mécaniques que j'ai mis aux sorties du routeur ne permettent de compter les kWh si la résistance est le chauffe-eau.
+Avec un déshydrateur, le décompte est plus juste. A vérifier avec un petit radiateur-ventilateur.
+
+C'est comme si, en fonction de la puissance de l'appareil, il y avait moins de comptage à cause l'intermitence du courant envoyé par le routeur.
+
 ### Eau chaude sanitaire
 
 On a mis le chauffe-eau sur 4/5 au lieu de 3/5 quand on chauffe sur les heures creuses.
 
 
-Ce que j'ai observé est qu'on injecte environ 100Wh sur le réseau avec le routeur solaire, soit 1kWh tous les 10 jours.
 
 ### Consommation journalière avec présence 
 
