@@ -91,13 +91,21 @@ Si l'on voulait produire de l'électricité avec le soleil, la terrasse est le m
 
 ## Pourquoi une réalisation qu'en 2022 ?
 
-J'ai beaucoup lu sur le sujet (ex: [forum photovoltaique](https://forum-photovoltaique.fr/)) et j'ai simulé le coût sur les divers sites marchands qui vendent du matériel PV et je ne suis lancé à cause du coût du matériel et du fait que les entreprises ne vendent que du 3kWc pour de la revente avec des tarifs de 7000 à 15000 euros.
+Mes pré-requis au projet étaient :
+
+- de respecter un budget max. de 2000 euros, avec réutilisation de panneaux pour réduire le coût et pour des soucis environnementaux.
+- de ne pas revendre le surplus, e.g. d'autoconsommer au maximum.
+- d'être rentable avant le remplacement des éléments sensibles (onduleur)
+
+J'ai donc beaucoup lu sur le sujet (ex: [forum photovoltaique](https://forum-photovoltaique.fr/)) et j'ai simulé le coût sur les divers sites marchands qui vendent du matériel PV et je ne suis lancé à cause du coût du matériel et du fait que les entreprises ne vendent que du 3kWc pour de la revente avec des tarifs de 7000 à 15000 euros.
 
 Aussi, le fait que l'installation ne pouvait être réalisé sur le toit de la maison me bloquait, car je ne voulais pas donner l'électricité non consommée gratuitement  (injection sur le réseau) à des entreprises (Enedis, Engie, etc) qui nous le revendent un prix de plus en plus élevé.
 
+En mai 2022, le réseau achète le surplus [6 à 10 centimes](https://www.insunwetrust.solar/blog/le-solaire-et-vous/tarif-rachat-photovoltaique/#:~:text=%F0%9F%92%B0%20Quel%20est%20le%20montant,0%2C10%20%E2%82%AC%20par%20kWh.) alors qu'il me le vend entre 17 et 22 centimes (tarif HC).
+
 Fin 2021, je reçois un email sur mon alerte du boncoin intitulé "panneaux photovoltaïques".
 Il s'agit d'un artisan qui promouvoit ses services pour utiliser la solution photovoltaïque pour l'ECS à plus ou moins 1000 euros.
-Je me dis *C'est dans mon budget !*. En effet, j'avais un budget max de 2000 euros et je ne cherchais pas à revendre mais plutôt autoconsommer au maximum.
+Je me dis *C'est dans mon budget et l'artisan que je recherchais !*.
 
 ## Présentation de l'installation 
 
