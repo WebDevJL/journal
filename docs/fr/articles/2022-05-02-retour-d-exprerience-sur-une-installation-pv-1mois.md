@@ -111,11 +111,13 @@ Je me dis *C'est dans mon budget et l'artisan que je recherchais !*.
 
 Après quelques échanges très intéressants avec l'artisan de SolaireEthic (voir [son site web](https://solairethic.fr/) très intéressant), nous partons pour la solution suivante :
 
-- 1 micro onduleur APSystems 4 MPPT 
-- 1 ligne en AC enterrée de 120 m de long de la terrasse cible sur la propriété à la maison (à 50cm du tableau général)
+- 1 [micro onduleur APSystems QS1 (4 MPPT)](https://emea.apsystems.com/wp-content/uploads/2018/10/APsystems-Microinverter-QS1-For-EMEA-User-manual_10.18_French.pdf).
+- 1 ligne en AC de 6mm² enterrée de 120 m de long de la terrasse cible sur la propriété à la maison (à 50cm du tableau général)
 - 8 panneaux de 190Wc recyclés (7-8 ans d'âge)
 
-J'ai géré la partie optimisation de l'autoconsommation en commandant le routeur solaire de [Robin Emley](https://mk2pvrouter.co.uk/), monté par [Le Profes'Solaire](https://sites.google.com/view/le-professolaire/) (malheureusement, il a arrêté son service de montage...).
+J'ai géré :
+- le creusement de la tranchée (pas facile avec un sol rocheux et 25 mètres de différence d'altitude entre la terrasse et la maison...)
+- la partie optimisation de l'autoconsommation en commandant le routeur solaire de [Robin Emley](https://mk2pvrouter.co.uk/), monté par [Le Profes'Solaire](https://sites.google.com/view/le-professolaire/) (malheureusement, il a arrêté son service de montage, mais il semble encore proposer le soudage...).
 
 Voici le plan de l'installation :
 
@@ -130,7 +132,7 @@ Du 1er avril and 30 avril, nous avons :
 | 160,6 | 147,6 | 13 |
 
 Nous avons donc une belle consommation de la production (> 90%).
-Il y aurait moins d'injection si j'avais branché la pince ampèremétrique du routeur solaire dans le bon sens, ce que j'ai réalisé le 4 avril.
+Il y aurait moins d'injection si j'avais branché la pince ampèremétrique du routeur solaire dans le bon sens, ce que j'ai réalisé le 4 avril seulement !
 
 Si l'on compare les mêmes données de la mise en service le 27 mars au 4 avril, on voit :
 
@@ -138,41 +140,48 @@ Si l'on compare les mêmes données de la mise en service le 27 mars au 4 avril,
 | - | - | - |
 | 30.8 | 12,8 | 18 |
 
-soit à peine 40%. C'est dommage vu qu'on ne peut revendre quand les panneaux sont installés au sol...
+soit à peine 40%. C'est dommage vu qu'on ne peut pas revendre quand les panneaux sont installés au sol... (voir § "Quelles conditions pour vendre l’électricité solaire à EDF ?" sur [cet article](https://www.choisir.com/energie/articles/104505/l-obligation-d-achat-solaire-d-edf))
 
 ## Quelles sont mes observations ?
 
 ### Routeur solaire 
 
 Il est très efficace.
-J'ai observé qu'on injecte environ 100Wh sur le réseau avec le routeur solaire, soit 1kWh tous les 10 jours.
-C'est très marginal.
 
-Par contre, les compteurs mécaniques que j'ai mis aux sorties du routeur ne permettent de compter les kWh précisemment si la résistance est le chauffe-eau, car la puissance produite est bien inférieure à la puissance du chauffe-eau. En diminuant la résistance, cela fonctionnerait mieux.
+J'ai observé qu'on injecte environ 100Wh sur le réseau avec le routeur solaire, soit 1kWh tous les 10 jours.
+C'est très marginal et acceptable.
+
+Par contre, les compteurs mécaniques que j'ai mis aux sorties du routeur ne permettent de compter les kWh précisemment si la résistance est le chauffe-eau, car la puissance produite est bien inférieure à la puissance utilisée du chauffe-eau. 
+
+En diminuant la résistance pour que la `puissance produite = puissance consommée`, cela fonctionnerait peut-être mieux.
 En fonction de la puissance de l'appareil, il y avait moins de comptage à cause l'intermitence du courant envoyé par le routeur.
 
 En effet, avec un déshydrateur de 700W de puissance, le décompte est plus juste.
 
+Ceci était un bonus vu que j'ai un compteur en sortie de l'onduleur et le décompte des kWh injectés sur le Linky.
+
 ### Eau chaude sanitaire
 
-On a mis le chauffe-eau sur 4/5 au lieu de 3/5 quand on chauffe sur les heures creuses.
+On a mis le chauffe-eau sur 4/5 quand on chauffe via le solaire au lieu de 3/5 quand on chauffe sur les heures creuses.
 Avec une journée plutôt belle, même si un peu grise, le soleil chauffe largement ce qu'il faut pour la journée, si ce n'est plus.
 
-S'il fait plus mauvais, il y aurait 2 jours d'eau chaude en stock, selon les usages bien sûr.
+S'il fait plus mauvais, il y aurait 2 jours d'eau chaude en stock après une belle journée. Cela varie selon les usages d'ECS bien sûr.
 
 Je me suis posé la question d'installer un deuxième cumulus de 200 litres pour stocker sous forme d'eau chaude la production solaire.
-Toutefois, c'est une investissement de 700 à 800 euros et le besoin n'y est pas vraiment vu qu'on n'a pas d'utilité de 400 litres en réalité et nous accueillons 2 à 3 persones de plus que très rarement dans l'année.
+Toutefois, c'est une investissement de 700 à 800 euros et le besoin n'y est pas vraiment vu qu'on n'a pas d'utilité de 400 litres en réalité. Nous accueillons 2 à 3 persones de plus que très rarement dans l'année.
 
 ### Problème de gestion entre l'alimentation via le routeur et via le connecteur HC/HP
 
 J'ai mis en parallèle les deux alimentations du chauffe-eau. 
-Toutefois, il faudrait que je puisse avoir un interrupteur qui commande la source d'alimentation à côté du routeur plutôt que de le faire manuellement.
+Toutefois, il faudrait que je puisse avoir un interrupteur qui commande la source d'alimentation à côté du routeur plutôt que de le faire manuellement dans le garage.
 
-Il y a aussi des comportements bizarre sur l'efficacité du contacteur où il ne reçoit pas le signal ou l'absence du signal d'Enedis.
+Il y a aussi des comportements bizarre sur l'efficacité du contacteur où il ne reçoit pas le signal ou l'absence du signal d'Enedis. Je ne sais pas s'il s'agit d'un mauvais branchement ou d'un souci du réseau. En effet, avant l'installation du Linky, nous avions eu des incohérences où le contacteur était *actif* en journée alors qu'il était sur le mode *Auto*...
 
 ### Consommation journalière avec présence 
 
-*Insérer image d'une semaine*
+![Consommation journalière avec présence (source : Linky)](/public/2022-05-02-retour-d-exprerience-sur-une-installation-pv-1mois-conso-jour-present.jpg)
+
+*Consommation journalière avec présence (source : Linky)*
 
 On voit très clairement le refrigérateur qui se met en route de façon cyclique.
 
@@ -180,8 +189,21 @@ On voit très clairement le refrigérateur qui se met en route de façon cycliqu
 
 En février 2022, nous avons été absent pendant 5 semaines. La consommation journalière moyenne était de 2.5 kWh.
 
-*Insert typical day image from february 2022*
+![Consommation journalière sans présence après la mise en service de l'installation PV (source : Linky)](/public/2022-05-02-retour-d-exprerience-sur-une-installation-pv-1mois-conso-jour-absent-pv.jpg)
+
+*Consommation journalière sans présence après la mise en service de l'installation PV (source : Linky)*
 
 En avril 2022, nous avons été absent pendant quelques jours. La consommation journalière moyenne est descendue à 0.7 kWh, soit -72%. Pas mal !
 
-*Insert typical day on April 22 2022*
+![Consommation journalière sans présence avant la mise en service de l'installation PV (source : Linky)](/public/2022-05-02-retour-d-exprerience-sur-une-installation-pv-1mois-conso-jour-absent-nopv.jpg)
+
+Consommation journalière sans présence avant la mise en service de l'installation PV (source : Linky)
+
+## Quelle est la suite 
+
+Je vais :
+
+1. essayer d'estimer à partir des rapports Heliorama et de la puissance crête installée le temps qu'il faudra pour rentabiliser l'installation.
+2. réaliser un retour sur expérience courant octobre, 6 mois après la mise en service de l'installation.
+
+A bientôt pour la suite !
