@@ -120,9 +120,7 @@ J'ai géré :
 - le creusement de la tranchée (pas facile avec un sol rocheux et 25 mètres de différence d'altitude entre la terrasse et la maison...)
 - la partie optimisation de l'autoconsommation en commandant le routeur solaire de [Robin Emley](https://mk2pvrouter.co.uk/), monté par [Le Profes'Solaire](https://sites.google.com/view/le-professolaire/) (malheureusement, il a arrêté son service de montage, mais il semble encore proposer le soudage...).
 
-Voici le plan de l'installation :
-
-_Inclure l'image du plan final_
+Voici le plan de l'installation en ligne : suivre [ce lien public](https://drive.google.com/file/d/1-S0uexOOgAtxyAuGcOvtqFplVxO6Hs8T/view?usp=sharing).
 
 ## Que disent les chiffres après un mois ?
 
