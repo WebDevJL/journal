@@ -3,7 +3,7 @@ isDraft: true
 title: "Les bases d'une installation solaire en autonomie, par L'Archipelle"
 description: "Mes notes du Vlog réalisé par L'Archipelle"
 date: 2021-mm-dd
-heroImage: "/images/default.jpg"
+heroImage: '/images/default.jpg'
 heroAlt: Image par défaut
 meta:
   keywords:
@@ -50,15 +50,15 @@ Voir mon tableau sur le sujet [dans Google Sheet](https://docs.google.com/spread
 ## Calculer la consommation en mode dégradé
 
 Une fois qu'on connait sa consommation globale, il faut déterminer ce qu'on peut consommer quand la production solaire est moyenne ou mauvaise.
-Autrement dit, il faut se poser les questions suivantes : 
+Autrement dit, il faut se poser les questions suivantes :
 
 - Que s'autorisons-nous d'utiliser ?
 - Devons-nous faire des concessions sur certains usages ?
 - Comment pouvons-vous remplacer un usage électrique en hiver ?
 - Comment pouvons-nous optimiser notre usage de la production PV en été ?
 
-Ainsi, avoir des appareils électriques peut-être instéressant, selon la période de l'année. 
-Par exemple, 
+Ainsi, avoir des appareils électriques peut-être instéressant, selon la période de l'année.
+Par exemple,
 
 - Utiliser un plaque électrique l'été à la place d'un cuisinière à bois est plus logique, car on ne veut pas chauffer la maison en été ! Et la plaque de cuisson électrique peut être programmé. C'est la cuisine d'été.
 - Pour faire griller le pain, si on est résilient, on utilisera le grille-pain l'été et la cuisinière à bois l'hiver.
@@ -66,7 +66,6 @@ Par exemple,
 - Pour sécher les légumes, herbes et fruits, on utilisera le déhydrateur en été.
 - Pour couper le bois, on utilisera une tronçoneuse électrique pour couper le bois l'été.
 - Pour broyer les végétaux, pour tondre l'herbe avec des appareils électriques.
-
 
 En mode résilience, on doit multiplier le matériel.
 Le stockage va plus loin que l'usage de batteries.
@@ -85,23 +84,16 @@ A suivre sur une prochaine vidéo de l'Archipel ou [tester le simulation de Watt
 
 On a :
 
-| Technologie | Avantanges | Inconvénients |
-| - | - | -|
-| OPZS | | |
-| Li-Ni-Fe | - Meilleure durée de vie et coût sur le long terme | - Entretien obligatoire |
-| Li-ion | - Il faut penser au recyclage des batteries de PC et cie, où si une cellule est HS, l'ensemble de la batterie est HS
-  - En réalité, sur 6 cellules, une seule est peut-être KO.
-   | - C'est toutefois long et fastidieux à démonter et tester 
-  - Il faut aussi faire attention aux cours-circuits, car les batteries sont toxiques si elles s'enflamment ou surchauffent.
- |
-| Gel | facilité d'usage et le zéro entretien | - Durée de vie et réutilisation impossible |
+| Technologie | Avantanges                                                                                                                                                                  | Inconvénients                                                                                                                                                                     |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OPZS        |                                                                                                                                                                             |                                                                                                                                                                                   |
+| Li-Ni-Fe    | Meilleure durée de vie et coût sur le long terme                                                                                                                            | Entretien obligatoire                                                                                                                                                             |
+| Li-ion      | Il faut penser au recyclage des batteries de PC et cie, où si une cellule est HS, l'ensemble de la batterie est HS. En réalité, sur 6 cellules, une seule est peut-être KO. | C'est toutefois long et fastidieux à démonter et tester. Il faut aussi faire attention aux cours-circuits, car les batteries sont toxiques si elles s'enflamment ou surchauffent. |
+| Gel         | Facilité d'usage et le zéro entretien                                                                                                                                       | Durée de vie et réutilisation impossible                                                                                                                                          |
 
-On doit penser aussi : 
+On doit penser aussi :
 
 - A la place qu'on a pour stocker les batteries
 - De la volonté de faire de l'entretien ou pas
 
-
 ### Batteries Nickel-Fer vs Lithium vs Gel
-
- 
