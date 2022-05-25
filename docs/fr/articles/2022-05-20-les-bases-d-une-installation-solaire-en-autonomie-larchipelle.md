@@ -80,20 +80,111 @@ On prend notre consommation en mode dégradé et on détermine le nombre de jour
 
 A suivre sur une prochaine vidéo de l'Archipel ou [tester le simulation de Wattuneed](https://www.wattuneed.com/fr/content/56-dimensionner-votre-kit-solaire-autonomes-autoconsommation).
 
-## Choisir sa technologie de batterie
+### Choisir sa technologie de batterie
 
 On a :
 
-| Technologie | Avantanges                                                                                                                                                                  | Inconvénients                                                                                                                                                                     |
-| ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OPZS        |                                                                                                                                                                             |                                                                                                                                                                                   |
-| Li-Ni-Fe    | Meilleure durée de vie et coût sur le long terme                                                                                                                            | Entretien obligatoire                                                                                                                                                             |
-| Li-ion      | Il faut penser au recyclage des batteries de PC et cie, où si une cellule est HS, l'ensemble de la batterie est HS. En réalité, sur 6 cellules, une seule est peut-être KO. | C'est toutefois long et fastidieux à démonter et tester. Il faut aussi faire attention aux cours-circuits, car les batteries sont toxiques si elles s'enflamment ou surchauffent. |
-| Gel         | Facilité d'usage et le zéro entretien                                                                                                                                       | Durée de vie et réutilisation impossible                                                                                                                                          |
+- Gel (plomb)
+- OPZS
+- Li-ion
+- Li-Ni-Fe
 
 On doit penser aussi :
 
 - A la place qu'on a pour stocker les batteries
 - De la volonté de faire de l'entretien ou pas
+
+#### [Gel (plomb)](https://www.google.com/search?q=batterie+Gel)
+
+Avantanges :
+
+- Facilité d'usage et le zéro entretien
+
+Inconvénients :
+
+- Durée de vie et réutilisation impossible
+
+#### [OPZS](https://www.google.com/search?q=batterie+opzv+12v)
+
+Avantanges :
+
+Inconvénients :
+
+#### [Li-ion](https://www.google.com/search?q=batterie+lithium)
+
+Avantanges :
+
+- Il faut penser au recyclage des batteries de PC et cie, où si une cellule est HS, l'ensemble de la batterie est HS. En réalité, sur 6 cellules, une seule est peut-être KO.
+
+Inconvénients :
+
+- Le recyclage, c'est toutefois long et fastidieux à démonter et tester. Il faut aussi faire attention aux cours-circuits, car les batteries sont toxiques si elles s'enflamment ou surchauffent.
+
+#### [Li-Ni-Fe](https://www.google.com/search?q=batterie+lifepo4)
+
+Avantanges :
+
+- Meilleure durée de vie (~26 ans) et coût sur le long terme.
+- On peut changer l'électrolyse pour restaurer la capacité originale.
+- Il y a moins de risque en cas de court-circuit.
+
+Inconvénients :
+
+- Le prix : environ 30 à 40 % de plus que les batteries Li-ion
+- Entretien obligatoire : il faut ajouter de l'eau distillé périodiquement pour que cela reste entre le niveau min. et max..
+- ça prend de la place
+- C'est très lourd...
+
+## Dimensionner les panneaux photovoltaïques
+
+Plus on met de panneaux, plus les batteries vont durer et donc plus la rentabilité sera au rendez-vous.
+
+On peut surdimensionner les panneaux, mais il faut surtout éviter un mauvais dimensionnement des batteries.
+
+Pour information, les panneaux peuvent durer largement au-delà des 40 ans.
+Le premier monitoring en Savoie, en 1992, montre 0.3% de rendement en moins par an.
+
+Le nettoyage est **très important**, plus que la perte de rendement par vieillissement.
+
+## Dimensionner l'onduleur
+
+Il doit permettre de fournir la puissance de l'appareil le plus puissant.
+
+Exemple : le chauffe-eau électrique est l'appareil le plus puissant avec sa résistance de 2000W. Il faut donc un onduleur de 2000W ou plus.
+
+Il faut aussi penser à limiter son usage simultané de plusieurs appareils. Sinon, ça saute.
+
+## Remarques diverses
+
+### Panneaux photovoltaïques vs Panneaux solaires thermique
+
+Il y a des avantanges et inconvénients aux 2 systèmes :
+
+- il faut 2 fois moins de surface pour chauffer la même quantité d'eau en solaire thermique.
+- il y a des constraintes physiques sur le solaire thermique (il faut rester petit).
+- la durée de vie du photovoltaïque est bien meilleure et l'entretien réduit.
+
+### "On regarde dehors pour faire le choix d'utiliser ceci ou cela"
+
+Il faut consommer quand c'est possible.
+Il faut choisir quand la production nécessite des choix (mode dégradé).
+
+### Coût d'autonomie
+
+_Note :_ cela coûte 50kE à 60kE de plus rendre une maison autonome en rénovation si réalisée par des professionnels.
+
+### Préférance au 12V plutôt que le 230V
+
+Pourquoi ?
+
+Pour éviter des gros onduleurs quand l'éclairage, les PC, etc, on peut utiliser [un orion, chez Vitron](https://www.google.com/search?q=orion+victron) (convertisseur de 48V en 12 V) pour éviter les pertes sur la transformation du courant continu en courant alternatif.
+
+Exemple : un PC peut fonctionner en 12V, moyennant un variateur de tension pour transformer le 12V en ~19V.
+
+### Photovoltaïque et chauffage électrique
+
+> On oublie.
+
+Dans une maison classique, il faut un terrain de foot de panneaux...
 
 ### Batteries Nickel-Fer vs Lithium vs Gel
