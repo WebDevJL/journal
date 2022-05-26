@@ -12,6 +12,10 @@ meta:
     - Résilience
 ---
 
+Merci à Brian et Rémi pour leur échange !
+Ce qui suit sont mes notes de la vidéo publiée sur la chaîne de l'Archipelle.
+Vous pouvez retrouver [la vidéo sur YouTube](https://www.youtube.com/watch?v=WOuTv0kfwRg).
+
 ## Pourquoi une installation solaire en autonomie
 
 Il faut se poser la question "Pourquoi". Il y a 2 choix :
