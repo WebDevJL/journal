@@ -1,9 +1,7 @@
 ---
-isDraft: true
 title: "Installation PV - quel retour d'expérience après un mois calendaire complet ?"
 description: 'Fin Mars 2022, nous avons mis en service notre installation photovoltaïque. Regardons les données et les conclusions à la fin Avril 2022'
-date: 2021-mm-dd
-heroImage: '/images/default.jpg'
+date: 2021-04-26
 heroAlt: Image par défaut
 meta:
   keywords:
