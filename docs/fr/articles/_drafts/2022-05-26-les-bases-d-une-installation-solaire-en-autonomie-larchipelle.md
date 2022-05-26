@@ -1,9 +1,8 @@
 ---
-isDraft: true
-title: « Les bases d'une installation solaire en autonomie, par L'Archipelle »
-description: « Mes notes du Vlog réalisé par L'Archipelle »
+title: "Les bases d'une installation solaire en autonomie, par L'Archipelle"
+description: "Mes notes du Vlog réalisé par L'Archipelle"
 date: 2021-mm-dd
-heroImage: « /images/default.jpg »
+heroImage: '/images/default.jpg'
 heroAlt: Image par défaut
 meta:
   keywords:
@@ -15,7 +14,7 @@ meta:
 
 ## Pourquoi une installation solaire en autonomie
 
-Il faut se poser la question « Pourquoi ». Il y a 2 choix :
+Il faut se poser la question "Pourquoi". Il y a 2 choix :
 
 - pour un site isolé
 - pour un site hybride, c.-à-d. toujours connecté au réseau, mais pouvant passer en autonomie temporairement.
@@ -170,7 +169,7 @@ Il y a des avantages et inconvénients aux 2 systèmes :
 - il y a des contraintes physiques sur le solaire thermique (il faut rester petit).
 - la durée de vie du photovoltaïque est bien meilleure et l'entretien réduit.
 
-### « On regarde dehors pour faire le choix d'utiliser ceci ou cela »
+### "On regarde dehors pour faire le choix d'utiliser ceci ou cela"
 
 Il faut consommer quand c'est possible.
 Il faut choisir quand la production nécessite des choix (mode dégradé).
