@@ -19,7 +19,7 @@
           >{{ key }}</span
         >
       </div>
-      <hr />
+      <!-- <hr /> -->
     </article>
   </section>
 </template>
@@ -33,12 +33,23 @@ export default {
       type: String,
       required: true,
     },
+    showDrafts: {
+      type: Boolean,
+    },
   },
   computed: {
     articles() {
       // console.log("all pages", pages);
       const filteredPages = getIndexStartWith(this.startPath, pages)
-        .filter((x) => !x.frontmatter.isIndexPage || x.frontmatter.isDraft)
+        .filter((x) => {
+          //console.log(`${x.slug} => isIndexPage=${x.frontmatter.isIndexPage}`);
+          console.log(`${x.slug} => isDraft=${x.frontmatter.isDraft}`);
+          if (
+            (this.showDrafts && !x.frontmatter.isIndexPage) || //show drafts only
+            (!x.frontmatter.isIndexPage && !x.frontmatter.isDraft) //or not...
+          )
+            return x;
+        })
         .sort(
           (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date),
         );
@@ -48,10 +59,7 @@ export default {
   },
 };
 </script>
-<style scoped>
-.post {
-  padding: 0 0 2em;
-}
+<style>
 .keywords {
   margin-top: 10px;
 }

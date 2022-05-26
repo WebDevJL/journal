@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import Layout from "@vuepress/theme-default/lib/client/layouts/Layout.vue";
-import CustomFooter from "./CustomFooter.vue";
+import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue';
+import CustomFooter from './CustomFooter.vue';
 export default {
   components: {
     Layout,
@@ -72,9 +72,9 @@ export default {
   --code-hl-bg-color: rgba(0, 0, 0, 0.66);
   --code-ln-color: var(--c-palette-light);
   --code-ln-wrapper-width: 3.5rem;
-  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  --font-family-code: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --font-family-code: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
   --navbar-height: 3.6rem;
   --navbar-padding-v: 0.7rem;
   --navbar-padding-h: 1.5rem;
@@ -102,6 +102,7 @@ html.dark {
   --c-bg-light: var(--c-palette-light);
   --c-bg-lighter: var(--c-bg-light);
   --c-text: var(--c-palette-light);
+  --c-text-dark: var(--c-palette-dark);
   --c-text-hover-brightness: 1.4;
   --c-text-light: var(--c-text);
   --c-text-lighter: var(--c-text);
@@ -182,17 +183,45 @@ a:focus {
   border: 2px dashed var(--c-brand-light);
 }
 
+.dark code {
+  color: var(--c-text-dark);
+}
+
 /* Layout */
-.article img {
+.post {
+  margin: 1em 0;
+  padding: 1.25em 1em;
+  border-radius: 8px;
+  border: 1px solid var(--c-brand-light);
+}
+
+.post h2 {
+  margin-top: 0;
+}
+
+.post p {
+  color: var(--c-text);
+}
+
+.article img,
+.post a {
   width: 100%;
 }
+
+.theme-default-content:not(.custom) img {
+  width: 100%;
+}
+
 .image-cropped-wrapper {
-  height: 5em;
+  max-height: 5em;
   overflow: hidden;
 }
 @media (min-width: 36em) {
   .image-cropped-wrapper {
-    height: 12em;
+    max-height: 12em;
+  }
+  .image-cropped-wrapper img {
+    width: 100%;
   }
 }
 </style>

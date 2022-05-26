@@ -2,20 +2,20 @@
   <div class="my-footer">
     Built with
     <a href="https://v3.vuejs.org/" target="_blank" rel="noopener noreferrer"
-      >Vue.js<OutboundLink /></a
+      >Vue.js<ExternalLinkIcon /></a
     >,
     <a
       href="https://v2.vuepress.vuejs.org/"
       target="_blank"
       rel="noopener noreferrer"
-      >Vuepress<OutboundLink /></a
+      >Vuepress<ExternalLinkIcon /></a
     >,
     <a href="https://vitejs.dev/" target="_blank" rel="noopener noreferrer"
-      >Vite<OutboundLink
+      >Vite<ExternalLinkIcon
     /></a>
     and deployed to
     <a href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer"
-      >Netlify<OutboundLink
+      >Netlify<ExternalLinkIcon
     /></a>
   </div>
 </template>

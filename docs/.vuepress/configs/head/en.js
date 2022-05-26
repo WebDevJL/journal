@@ -1,9 +1,9 @@
-const titleDefault = 'Experiences and notes from Jeremie Litzler';
+const titleDefault = 'A journal, by Jeremie Litzler';
 
 module.exports = {
   title: titleDefault,
   description:
-    'I share here what I have learnt, what I found helpful, what I lived. Maybe it will be useful and important to you as well. Enjoy!',
+    'I share my notes, thoughts and experiences that can be useful and important to you',
   repo: 'https://github.com/JeremieLitzler/journal',
   //https://v2.vuepress.vuejs.org/reference/config.html#head
   head: [
