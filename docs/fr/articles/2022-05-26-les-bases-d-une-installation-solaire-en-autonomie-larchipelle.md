@@ -195,5 +195,3 @@ Exemple : un PC peut fonctionner en 12V, moyennant un variateur de tension pour
 > On oublie.
 
 Dans une maison classique, il faut un terrain de foot de panneaux...
-
-###
