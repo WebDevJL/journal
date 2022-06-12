@@ -219,7 +219,7 @@ En effet, avant l'installation du Linky, nous avions eu des incohérences où le
 
 _Consommation journalière avec présence (source : Linky)_
 
-On voit très clairement le réfrigérateur qui se met en route de façon cyclique.
+On voit très clairement le réfrigérateur qui se met en route de façon cyclique et le pic représente le lave-vaiselle qui a tourné entre minuit et 3h du matin.
 
 ### Consommation journalière en notre absence
 
