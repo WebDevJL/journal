@@ -29,3 +29,7 @@ Or to build it:
 ```sh
 npm run docs:build
 ```
+
+## VuePress changelogs
+
+See [this link](https://github.com/vuepress/vuepress-next/blob/main/CHANGELOG.md).
