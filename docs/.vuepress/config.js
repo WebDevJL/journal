@@ -1,4 +1,5 @@
 const { path } = require('@vuepress/utils');
+import { vuePressThemeJeremieL } from './theme';
 
 const headEn = require(path.resolve(__dirname, 'configs/head/en'));
 const headFr = require(path.resolve(__dirname, 'configs/head/fr'));
@@ -11,8 +12,8 @@ module.exports = {
     '/': headEn,
     '/fr/': headFr,
   },
-  theme: path.resolve(__dirname, './theme'),
-  themeConfig: {
+  theme: vuePressThemeJeremieL({
+    //path.resolve(__dirname, './theme'),
     repo: 'JeremieLitzler/journal',
     docsRepo: 'https://github.com/JeremieLitzler/journal',
     docsBranch: 'main',
@@ -41,7 +42,7 @@ module.exports = {
         ],
       },
     },
-  },
+  }),
   bundler: '@vuepress/vite',
   bundlerConfig: {
     build: {

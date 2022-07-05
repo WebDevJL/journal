@@ -1,10 +1,16 @@
-// https://v2.vuepress.vuejs.org/advanced/cookbook/extending-a-theme.html#extend-default-theme
-const { path } = require("@vuepress/utils");
+//https://v2.vuepress.vuejs.org/reference/default-theme/extending.html
 
-module.exports = {
-  name: "vuepress-theme-jeremiel",
-  extends: "@vuepress/theme-default",
-  layouts: {
-    Layout: path.resolve(__dirname, "layouts/Layout.vue"),
-  },
+import type { Theme } from '@vuepress/core';
+import { defaultTheme } from '@vuepress/theme-default';
+import type { DefaultThemeOptions } from '@vuepress/theme-default';
+import { path } from '@vuepress/utils';
+
+export const vuePressThemeJeremieL = (options: DefaultThemeOptions): Theme => {
+  return {
+    name: 'vuepress-theme-jeremiel',
+    extends: defaultTheme(options),
+    layouts: {
+      Layout: path.resolve(__dirname, 'layouts/Layout.vue'),
+    },
+  };
 };
