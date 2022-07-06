@@ -6,7 +6,7 @@
   </ParentLayout>
 </template>
 
-<script setup>
+<script>
 import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue';
 import CustomFooter from './CustomFooter.vue';
 export default {
