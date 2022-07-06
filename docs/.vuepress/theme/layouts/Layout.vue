@@ -1,20 +1,20 @@
 <template>
-  <Layout>
+  <ParentLayout>
     <template #page-bottom>
-      <custom-footer />
+      <CustomFooter />
     </template>
-  </Layout>
+  </ParentLayout>
 </template>
 
-<script>
-import Layout from '@vuepress/theme-default/lib/client/layouts/Layout.vue';
+<script setup>
+import ParentLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue';
 import CustomFooter from './CustomFooter.vue';
-export default {
-  components: {
-    Layout,
-    CustomFooter,
-  },
-};
+// export default {
+//   components: {
+//     ParentLayout,
+//     CustomFooter,
+//   },
+// };
 </script>
 
 <style lang="css">

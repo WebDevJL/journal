@@ -29,3 +29,12 @@ Or to build it:
 ```sh
 npm run docs:build
 ```
+
+## VuePress changelogs to upgrade
+
+See [this link](https://github.com/vuepress/vuepress-next/blob/main/CHANGELOG.md).
+
+1. run `yarn upgrade vuepress-vite@2.0.0-beta.XX`
+2. run `rm -R node_modules && rm yarn.lock && yarn install`
+3. run `npm run docs:build`
+4. run `npm run docs:dev` to see if the site loads and renders well :)
