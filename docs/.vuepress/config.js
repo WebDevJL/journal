@@ -44,7 +44,7 @@ module.exports = {
       },
     },
     themePlugins: {
-      nprogress: false,
+      nprogress: true,
     },
   }),
   bundler: viteBundler({
