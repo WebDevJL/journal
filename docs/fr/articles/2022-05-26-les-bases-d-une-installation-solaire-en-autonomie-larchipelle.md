@@ -169,9 +169,15 @@ Il faut aussi penser à limiter son usage simultané de plusieurs appareils. Sin
 
 Il y a des avantages et inconvénients aux 2 systèmes :
 
-- il faut 2 fois moins de surface pour chauffer la même quantité d'eau en solaire thermique.
+- il faut 4 fois moins de surface pour chauffer la même quantité d'eau en solaire thermique.
 - il y a des contraintes physiques sur le solaire thermique (il faut rester petit).
 - la durée de vie du photovoltaïque est bien meilleure et l'entretien réduit.
+
+Personnellement, l’installation PV m’a coûté presque autant que le ballon thermodynamique.
+
+Donc si j’ai la place, je partirai sur la même chose qu’aujourd’hui plutôt que du thermique.
+
+A suivre dans le futur quand je comparerai de plus près les deux systèmes pour l’ECS.
 
 ### "On regarde dehors pour faire le choix d'utiliser ceci ou cela"
 
