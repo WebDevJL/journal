@@ -199,7 +199,7 @@ a:focus {
   margin-top: 0;
 }
 
-.theme-default-content h2 {
+.theme-default-content .post h2 {
   padding-top: 0.25rem;
 }
 
@@ -227,5 +227,9 @@ a:focus {
   .image-cropped-wrapper img {
     width: 100%;
   }
+}
+
+html.dark tr:nth-child(2n) {
+  background-color: var(--c-bg-dark);
 }
 </style>

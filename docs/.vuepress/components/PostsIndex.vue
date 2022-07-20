@@ -51,7 +51,7 @@ export default {
             return x;
         })
         .sort(
-          (a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date),
+          (a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date),
         );
       // console.log("Filtered:", filteredPages);
       return filteredPages;
