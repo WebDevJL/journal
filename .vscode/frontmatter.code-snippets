@@ -16,5 +16,115 @@
       "---"
     ],
     "description": "Set fronmatter to the new post"
+  },
+  "FM Template Permaculture-agroecologie-etc": {
+    "scope": "markdown",
+    "prefix": "set frontmatter perma",
+    "body": [
+      "---",
+      "isDraft: true",
+      "title: $1, par Permaculture, agroecologie, etc",
+      "description: Mes notes du vlog réalisé par Permaculture, agroecologie, etc",
+      "date: $3",
+      "heroImage: \"/images/$4.jpg\"",
+      "heroAlt: $5",
+      "meta:",
+      "  keywords:",
+      "    - $6",
+      "---",
+      "",
+      "Merci à Damien pour le partage de son savoir !",
+      "Ce qui suit sont mes notes de la vidéo publiée sur la chaîne Permaculture, agroecologie, etc.",
+      "Vous pouvez retrouver [la vidéo sur YouTube]($7)."
+    ],
+    "description": "Set fronmatter to the new post"
+  },
+  "FM Template L'Archipelle": {
+    "scope": "markdown",
+    "prefix": "set frontmatter archipelle",
+    "body": [
+      "---",
+      "isDraft: true",
+      "title: $1, par l'Archipelle",
+      "description: Mes notes du vlog réalisé par l'Archipelle",
+      "date: $3",
+      "heroImage: \"/images/$4.jpg\"",
+      "heroAlt: $5",
+      "meta:",
+      "  keywords:",
+      "    - $6",
+      "---",
+      "",
+      "Merci à Brian pour le partage de son savoir !",
+      "Ce qui suit sont mes notes de la vidéo publiée sur la chaîne de l'Archipelle.",
+      "Vous pouvez retrouver [la vidéo sur YouTube]($7)."
+    ],
+    "description": "Set fronmatter to the new post"
+  },
+  "FM Template Charles Dowding": {
+    "scope": "markdown",
+    "prefix": "set frontmatter charles d",
+    "body": [
+      "---",
+      "isDraft: true",
+      "title: $1, by Charles Dowding",
+      "description: My notes from the vlog of Charles Dowding",
+      "date: $3",
+      "heroImage: \"/images/$4.jpg\"",
+      "heroAlt: $5",
+      "meta:",
+      "  keywords:",
+      "    - $6",
+      "---",
+      "",
+      "Thanks to Charles Dowding for sharing his wisdom and knowledge!",
+      "The following are the notes I took watching the video published on Charles Dowding's channel.",
+      "You can watch it using [this YouTube link]($7)."
+    ],
+    "description": "Set fronmatter to the new post"
+  },
+  "FM Template Huw Richards": {
+    "scope": "markdown",
+    "prefix": "set frontmatter huw r",
+    "body": [
+      "---",
+      "isDraft: true",
+      "title: $1, by Huw Richards",
+      "description: My notes from the vlog of Huw Richards",
+      "date: $3",
+      "heroImage: \"/images/$4.jpg\"",
+      "heroAlt: $5",
+      "meta:",
+      "  keywords:",
+      "    - $6",
+      "---",
+      "",
+      "Thanks to Huw Richards for sharing his wisdom and knowledge!",
+      "The following are the notes I took watching the video published on Huw-Richards's channel.",
+      "You can watch it using [this YouTube link]($7)."
+    ],
+    "description": "Set fronmatter to the new post"
+  },
+  "FM Template Comme un pingouin dans le desert": {
+    "scope": "markdown",
+    "prefix": "set frontmatter pinguin",
+    "body": [
+      "---",
+      "isDraft: true",
+      "title: $1, par Comme un pingouin dans le desert",
+      "description: Mes notes du vlog réalisé par Comme un pingouin dans le desert",
+      "date: $3",
+      "heroImage: \"/images/$4.jpg\"",
+      "heroAlt: $5",
+      "meta:",
+      "  keywords:",
+      "    - $6",
+      "---",
+      "",
+      "Merci à Kévin pour le partage de son savoir !",
+      "Ce qui suit sont mes notes de la vidéo publiée sur la chaîne Comme un pingouin dans le desert.",
+      "Vous pouvez retrouver [la vidéo sur YouTube]($7)."
+    ],
+    "description": "Set fronmatter to the new post"
   }
 }
