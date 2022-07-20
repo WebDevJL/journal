@@ -199,6 +199,10 @@ a:focus {
   margin-top: 0;
 }
 
+.theme-default-content h2 {
+  padding-top: 0.25rem;
+}
+
 .post p {
   color: var(--c-text);
 }
