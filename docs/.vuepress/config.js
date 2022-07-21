@@ -20,18 +20,20 @@ module.exports = {
     docsBranch: 'main',
     docsDir: 'docs',
     editLinkPattern: ':repo/edit/:branch/:path',
-    darkMode: true,
+    darkMode: false,
     logo: '/icons/favicon-32x32.png',
     logoDark: '/icons/dark-favicon-32x32.png',
-    navbar: [
-      { text: 'Home', link: '/' },
-      { text: 'Who am I', link: '/about' },
-      { text: 'Read', link: '/posts/' },
-    ],
-    selectLanguageText: 'Change language',
-    selectLanguageAriaLabel: 'Change language',
     locales: {
-      '/': { selectLanguageName: 'English' },
+      '/': {
+        selectLanguageText: 'Change language',
+        selectLanguageAriaLabel: 'Change language',
+        selectLanguageName: 'English',
+        navbar: [
+          { text: 'Home', link: '/' },
+          { text: 'Who am I', link: '/about' },
+          { text: 'Read', link: '/posts/' },
+        ],
+      },
       '/fr/': {
         selectLanguageText: 'Changer de langue',
         selectLanguageAriaLabel: 'Changer de langue',

@@ -1,6 +1,6 @@
 ---
 home: true
-title: Home
+title: Accueil
 heroText: 'Bonjour,'
 heroImage: /images/profilepic-400w.jpg
 actions:
