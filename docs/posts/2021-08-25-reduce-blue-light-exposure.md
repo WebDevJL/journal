@@ -7,7 +7,7 @@ meta:
     - Health
 ---
 
-[Read the french version](../fr/articles/2021-08-25-reduire-son-exposition-a-la-lumiere-bleue.md)
+[Read the french version](../fr/articles/2021-08-25-reduire-son-exposition-a-la-lumiere-bleue)
 
 ## Do you know about the _blue light_
 

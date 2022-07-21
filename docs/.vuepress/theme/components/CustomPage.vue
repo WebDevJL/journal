@@ -2,7 +2,9 @@
   <ParentPage>
     <!-- See https://vuejs.org/guide/components/slots.html#named-slots -->
     <template #top>
-      <h1>{{ pageH1 }}</h1>
+      <div class="theme-default-content">
+        <h1>{{ pageH1 }}</h1>
+      </div>
     </template>
   </ParentPage>
 </template>

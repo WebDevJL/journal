@@ -7,7 +7,7 @@ meta:
     - Health
 ---
 
-[Lire la version anglaise](../../posts/2021-08-25-reduce-blue-light-exposure.md)
+[Lire la version anglaise](../../../posts/2021-08-25-reduce-blue-light-exposure.md)
 
 ## Connaissez-vous la _lumière bleue_
 
