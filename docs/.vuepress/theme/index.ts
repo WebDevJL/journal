@@ -10,7 +10,10 @@ export const vuePressThemeJeremieL = (options: DefaultThemeOptions): Theme => {
     name: 'vuepress-theme-jeremiel',
     extends: defaultTheme(options),
     layouts: {
-      Layout: path.resolve(__dirname, 'layouts/Layout.vue'),
+      Layout: path.resolve(__dirname, 'layouts/CustomLayout.vue'),
     },
+    alias: {
+      '@theme/Page.vue': path.resolve(__dirname, './components/CustomPage.vue'), 
+    }
   };
 };
