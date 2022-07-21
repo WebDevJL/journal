@@ -10,10 +10,6 @@ meta:
     - Course reviews
 ---
 
-<!-- markdownlint-disable -->
-
-# {{$page.title}}
-
 ## What
 
 The course is about web responsive design using HTML and CSS.

@@ -9,7 +9,7 @@ meta:
     - Web fundamentals
 ---
 
-# Titre H1
+_Note:_ H1 is included in the frontmatter, property `title`. Check out [the VuePress docs](https://v2.vuepress.vuejs.org/reference/default-theme/frontmatter.html).
 
 ## Titre H2
 

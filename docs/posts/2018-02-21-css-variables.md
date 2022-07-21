@@ -8,21 +8,19 @@ meta:
     - Web development
 ---
 
-## CSS Variables
-
-### Sources
+## Sources
 
 [Medium article by Per Harald Borgen](https://medium.freecodecamp.org/learn-css-variables-in-5-minutes-80cf63b4025d)
 
-### Why learn CSS Variables?
+## Why learn CSS Variables?
 
 - To build a theme where you will reuse a property value many many many times
   - ex: the brand color or the size of a button.
 - To build better responsive designs
 
-### Local vs Global
+## Local vs Global
 
-#### Global
+### Global
 
 ```css
 :root {
@@ -33,7 +31,7 @@ button {
 }
 ```
 
-#### Local
+### Local
 
 ```css
 .alert {
@@ -45,7 +43,7 @@ button {
 }
 ```
 
-### Better responsiveness
+## Better responsiveness
 
 ```css
 :root {
@@ -58,7 +56,7 @@ media all and (max-width: 600px) {
 }
 ```
 
-### How to access variables with JavaScript
+## How to access variables with JavaScript
 
 ```js
 var root = document.querySelector(':root');

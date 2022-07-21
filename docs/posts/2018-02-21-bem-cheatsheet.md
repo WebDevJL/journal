@@ -8,10 +8,6 @@ meta:
     - Guides
 ---
 
-## BEM Cheatsheet
-
-Edited with [>>Dillinger.io<<](https://dillinger.io/)
-
 ## Sources
 
 - [BEM site](http://getbem.com/naming/)

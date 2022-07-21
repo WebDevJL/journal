@@ -10,5 +10,11 @@
     "prefix": "crédit image en",
     "body": ["Credits: [$1]($2)"],
     "description": "Add credit image"
+  },
+  "Crédit unsplash": {
+    "scope": "markdown",
+    "prefix": "disable warning crédit unsplash",
+    "body": ["<!-- markdownlint-disable MD033 -->"],
+    "description": "Add markdownling disable credit unsplash"
   }
 }
