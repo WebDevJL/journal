@@ -101,7 +101,7 @@ La plante entière est toxique, et même allergisante.
 
 C'est une plante qui peut indiquer, si présente en grande quantité, un engorgement des sols en eau et matière organique.
 
-Attention, il existe plusieurs sortes de renoncules et toutes n'indique pas toutes la même chose à propos du sol : voir Wikipedia.fr](https://fr.wikipedia.org/wiki/Renoncule).
+Attention, il existe plusieurs sortes de renoncules et toutes n'indique pas toutes la même chose à propos du sol : [voir Wikipedia.fr](https://fr.wikipedia.org/wiki/Renoncule).
 
 ### Le plantain lancéolé ou le plantain majeur
 
