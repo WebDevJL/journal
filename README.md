@@ -38,3 +38,12 @@ See [this link](https://github.com/vuepress/vuepress-next/blob/main/CHANGELOG.md
 2. run `rm -R node_modules && rm yarn.lock && yarn install`
 3. run `npm run docs:build`
 4. run `npm run docs:dev` to see if the site loads and renders well :)
+
+## VuePress plugins upgrade
+
+Run:
+
+```sh
+yarn upgrade @vuepress/plugin-pwa@next
+yarn upgrade @vuepress/plugin-pwa-popup@next
+```
