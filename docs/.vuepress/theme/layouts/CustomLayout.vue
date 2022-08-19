@@ -232,4 +232,8 @@ a:focus {
 html.dark tr:nth-child(2n) {
   background-color: var(--c-bg-dark);
 }
+
+iframe.contact-form {
+  height: 50em;
+}
 </style>

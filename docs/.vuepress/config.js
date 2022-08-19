@@ -35,6 +35,7 @@ module.exports = {
           { text: 'Home', link: '/' },
           { text: 'Who am I', link: '/about' },
           { text: 'Read', link: '/posts/' },
+          { text: 'Contact', link: '/contact-me' },
         ],
       },
       '/fr/': {
@@ -45,6 +46,7 @@ module.exports = {
           { text: 'Accueil', link: '/fr/' },
           { text: 'Qui suis-je', link: '/fr/a-propos/' },
           { text: 'Lire', link: '/fr/articles/' },
+          { text: 'Contact', link: '/fr/contactez-moi' },
         ],
       },
     },
