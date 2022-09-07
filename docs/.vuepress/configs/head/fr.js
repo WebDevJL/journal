@@ -1,10 +1,9 @@
 const titleFr = 'Un journal, par Jeremie Litzler';
-
+const descriptionFr = 'Je partage ici mes notes et experiences qui peuvent être importantes et utiles pour vous.';
 module.exports = {
   lang: 'fr-FR',
   title: titleFr,
-  description:
-    'Je partage ici mes notes et experiences qui peuvent être importantes et utiles pour vous',
+  description: descriptionFr,
   head: [
     ['meta', { property: 'og:title', content: titleFr }],
     ['meta', { property: 'og:type', content: 'website' }],
@@ -13,7 +12,7 @@ module.exports = {
       'meta',
       {
         property: 'og:description',
-        content: 'Notes, thoughts and experiences of Jérémie.',
+        content: descriptionFr,
       },
     ],
     ['meta', { property: 'og:type', content: 'website' }],
