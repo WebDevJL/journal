@@ -21,7 +21,7 @@ _I will enhance the post in later iterations..._
 
 Let's break it down into 5 points:
 
-## Point 1: breakdown your inital problem into small shunks
+## Point 1: breakdown your initial problem into small chunks
 
 It is well recognized that breaking down a big problem is the entry point to build an efficient product.
 
@@ -35,12 +35,12 @@ Define what the inputs are, how they're going to work together to produce the ou
 
 You need to know what the source of your inputs: a human being, an API, a file, etc.
 
-## Point 4: Seek feedback throught iteration
+## Point 4: Seek feedback through iteration
 
 Feedback is key to know if your product is doing what the customer asks for.
 Iterating several times will help to easy the bug hunt.
 
-It is a good idea to setup a little form or list of things to provide in a feedback, so that the person testing doesn't just say:
+It is a good idea to set up a little form or list of things you want to get from a feedback, so that the person testing doesn't just say:
 
 > It doesn't work...
 
@@ -48,7 +48,7 @@ Guide the tester with hints of what you need to solve an anomaly.
 
 ## Point 5: Trace the system working to troubleshoot efficiently
 
-The worth thing is to deploy a product that you think works as intented, but, when the customer puts his hands on it, everything breaks.
+The worse thing is to deploy a product that you think works as intended, but, when the customer puts his hands on it, everything breaks.
 
 Be sure to trace the important data that you would need to trouble a problem. Usually, it is done in the development process, because you will debug your app.
 Where you set breakpoints is probably a good place to put a trace!
