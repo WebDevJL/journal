@@ -53,6 +53,8 @@ The worse thing is to deploy a product that you think works as intended, but, wh
 Be sure to trace the important data that you would need to trouble a problem. Usually, it is done in the development process, because you will debug your app.
 Where you set breakpoints is probably a good place to put a trace!
 
+Please leave [your thoughts on Twitter](https://twitter.com/LitzlerJeremie/status/1567739380659355648?s=20&t=Zq68OGQA99ctcTuy8RIf6A).
+
 <!-- markdownlint-disable MD033 -->
 
 Photo by <a href="https://unsplash.com/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brett Jordan</a> on <a href="https://unsplash.com/s/photos/problem-solving?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
