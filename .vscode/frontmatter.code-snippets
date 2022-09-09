@@ -126,5 +126,27 @@
       "Vous pouvez retrouver [la vidéo sur YouTube]($7)."
     ],
     "description": "Set fronmatter to the new post"
+  },
+  "FM Template Altheaprovence": {
+    "scope": "markdown",
+    "prefix": "set frontmatter altheap",
+    "body": [
+      "---",
+      "isDraft: true",
+      "title: $1, par Altheaprovence",
+      "description: Mes notes du vlog réalisé par Altheaprovence",
+      "date: $3",
+      "heroImage: \"/images/$4.jpg\"",
+      "heroAlt: $5",
+      "meta:",
+      "  keywords:",
+      "    - $6",
+      "---",
+      "",
+      "Merci à Christophe pour le partage de son savoir !",
+      "Ce qui suit sont mes notes de la vidéo publiée sur la chaîne Altheaprovence.",
+      "Vous pouvez retrouver [la vidéo sur YouTube]($7)."
+    ],
+    "description": "Set fronmatter to the new post"
   }
 }
