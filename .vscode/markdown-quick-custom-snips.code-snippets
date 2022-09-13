@@ -16,5 +16,17 @@
     "prefix": "disable warning crédit unsplash",
     "body": ["<!-- markdownlint-disable MD033 -->"],
     "description": "Add markdownling disable credit unsplash"
+  },
+  "Snippet 'Mes notes' FR": {
+    "scope": "markdown",
+    "prefix": "add notes link fr",
+    "body": ["**Mes notes :** [lire l'article]($1)"],
+    "description": "Add a link to notes Fr"
+  },
+  "Snippet 'My notes' EN": {
+    "scope": "markdown",
+    "prefix": "add notes link en",
+    "body": ["**My notes:** [read them here]($1)"],
+    "description": "Add a link to notes EN"
   }
 }

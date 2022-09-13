@@ -46,7 +46,8 @@ export default {
           console.log(`${x.slug} => isDraft=${x.frontmatter.isDraft}`);
           if (
             (this.showDrafts && !x.frontmatter.isIndexPage) || //show drafts only
-            (!x.frontmatter.isIndexPage && !x.frontmatter.isDraft) //or not...
+            (!x.frontmatter.isIndexPage &&
+              (!x.frontmatter.isDraft || x.frontmatter.isDraft === undefined)) //or not...
           )
             return x;
         })
