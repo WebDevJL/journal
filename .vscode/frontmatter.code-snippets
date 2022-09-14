@@ -24,7 +24,7 @@
       "---",
       "isDraft: true",
       "title: $1, par Permaculture, agroecologie, etc",
-      "description: Mes notes du vlog réalisé par Permaculture, agroecologie, etc",
+      "description: Cet article résume mes notes du vlog réalisé par Permaculture, agroecologie, etc",
       "date: $3",
       "heroImage: \"/images/$4.jpg\"",
       "heroAlt: $5",
@@ -34,8 +34,10 @@
       "---",
       "",
       "Merci à Damien pour le partage de son savoir !",
-      "Ce qui suit sont mes notes de la vidéo publiée sur la chaîne Permaculture, agroecologie, etc.",
-      "Vous pouvez retrouver [la vidéo sur YouTube]($7)."
+      "Cet article résume mes notes du vlog réalisé par Permaculture, agroecologie, etc.",
+      "Vous pouvez retrouver [la vidéo sur YouTube]($7).",
+      "",
+      "Retrouvez [la liste de mes notes sur les autres vidéos de Damien](../2022-09-12-toutes-mes-notes-sur-les-videos-de-Permaculture-agroecologie-etc) pour apprendre davantage."
     ],
     "description": "Set fronmatter to the new post"
   },
@@ -46,7 +48,7 @@
       "---",
       "isDraft: true",
       "title: $1, par l'Archipelle",
-      "description: Mes notes du vlog réalisé par l'Archipelle",
+      "description: Cet article résume mes notes du vlog réalisé par par l'Archipelle",
       "date: $3",
       "heroImage: \"/images/$4.jpg\"",
       "heroAlt: $5",
@@ -56,8 +58,11 @@
       "---",
       "",
       "Merci à Brian pour le partage de son savoir !",
-      "Ce qui suit sont mes notes de la vidéo publiée sur la chaîne de l'Archipelle.",
-      "Vous pouvez retrouver [la vidéo sur YouTube]($7)."
+      "Cet article résume mes notes du vlog réalisé par l'Archipelle.",
+      "Vous pouvez retrouver [la vidéo sur YouTube]($7).",
+      "",
+      "",
+      "Retrouvez [la liste de mes notes sur les autres vidéos de Brian](../2022-09-12-toutes-mes-notes-sur-les-videos-de-L-Archipelle) pour apprendre davantage."
     ],
     "description": "Set fronmatter to the new post"
   },
@@ -68,7 +73,7 @@
       "---",
       "isDraft: true",
       "title: $1, by Charles Dowding",
-      "description: My notes from the vlog of Charles Dowding",
+      "description: The following are the notes I took watching the video published on Charles Dowding's channel",
       "date: $3",
       "heroImage: \"/images/$4.jpg\"",
       "heroAlt: $5",
@@ -76,6 +81,7 @@
       "  keywords:",
       "    - $6",
       "---",
+      "",
       "",
       "Thanks to Charles Dowding for sharing his wisdom and knowledge!",
       "The following are the notes I took watching the video published on Charles Dowding's channel.",
@@ -90,7 +96,7 @@
       "---",
       "isDraft: true",
       "title: $1, by Huw Richards",
-      "description: My notes from the vlog of Huw Richards",
+      "description: The following are the notes I took watching the video published on Huw-Richards's channel",
       "date: $3",
       "heroImage: \"/images/$4.jpg\"",
       "heroAlt: $5",
@@ -112,7 +118,7 @@
       "---",
       "isDraft: true",
       "title: $1, par Comme un pingouin dans le desert",
-      "description: Mes notes du vlog réalisé par Comme un pingouin dans le desert",
+      "description: Cet article résume mes notes du vlog réalisé par Comme un pingouin dans le desert",
       "date: $3",
       "heroImage: \"/images/$4.jpg\"",
       "heroAlt: $5",
@@ -122,8 +128,11 @@
       "---",
       "",
       "Merci à Kévin pour le partage de son savoir !",
-      "Ce qui suit sont mes notes de la vidéo publiée sur la chaîne Comme un pingouin dans le desert.",
-      "Vous pouvez retrouver [la vidéo sur YouTube]($7)."
+      "Cet article résume mes notes du vlog réalisé par Comme un pingouin dans le desert.",
+      "Vous pouvez retrouver [la vidéo sur YouTube]($7).",
+      "",
+      "",
+      "Retrouvez [la liste de mes notes sur les autres vidéos de Damien](../2022-09-12-toutes-mes-notes-sur-les-videos-de-Permaculture-agroecologie-etc) pour apprendre davantage."
     ],
     "description": "Set fronmatter to the new post"
   },
@@ -134,7 +143,7 @@
       "---",
       "isDraft: true",
       "title: $1, par Altheaprovence",
-      "description: Mes notes du vlog réalisé par Altheaprovence",
+      "description: Cet article résume mes notes du vlog réalisé par Altheaprovence",
       "date: $3",
       "heroImage: \"/images/$4.jpg\"",
       "heroAlt: $5",
@@ -144,8 +153,36 @@
       "---",
       "",
       "Merci à Christophe pour le partage de son savoir !",
-      "Ce qui suit sont mes notes de la vidéo publiée sur la chaîne Altheaprovence.",
-      "Vous pouvez retrouver [la vidéo sur YouTube]($7)."
+      "Cet article résume mes notes du vlog réalisé par Altheaprovence.",
+      "Vous pouvez retrouver [la vidéo sur YouTube]($7).",
+      "",
+      "",
+      "Retrouvez [la liste de mes notes sur les autres vidéos de Christophe](../2022-09-12-toutes-mes-notes-sur-les-videos-de-Althea-provence) pour apprendre davantage."
+    ],
+    "description": "Set fronmatter to the new post"
+  },
+  "FM Template Le chemin de la nature": {
+    "scope": "markdown",
+    "prefix": "set frontmatter chem nature",
+    "body": [
+      "---",
+      "isDraft: true",
+      "title: $1, par Le chemin de la nature",
+      "description: Cet article résume mes notes du vlog réalisé par Le chemin de la nature",
+      "date: $3",
+      "heroImage: \"/images/$4.jpg\"",
+      "heroAlt: $5",
+      "meta:",
+      "  keywords:",
+      "    - $6",
+      "---",
+      "",
+      "Merci à Christophe pour le partage de son savoir !",
+      "Cet article résume mes notes du vlog réalisé par Le chemin de la nature.",
+      "Vous pouvez retrouver [la vidéo sur YouTube]($7).",
+      "",
+      "",
+      "Retrouvez [la liste de mes notes sur les autres vidéos de Christophe](../2022-09-12-toutes-mes-notes-sur-les-videos-de-Le-chemin-de-la-nature) pour apprendre davantage."
     ],
     "description": "Set fronmatter to the new post"
   }
