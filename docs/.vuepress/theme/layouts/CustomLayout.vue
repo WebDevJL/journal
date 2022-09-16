@@ -187,6 +187,9 @@ a:focus {
   color: var(--c-text-dark);
 }
 
+.hero img  {
+    border-radius: 1em;
+ }
 /* Layout */
 .post {
   margin: 1em 0;
